@@ -32,17 +32,16 @@
             },
             "projection": {
                 "type": "mercator",
-                "scale": 1500,
+                "scale": 350,
                 "center": [
                     110,
                     3.5
-                ],
-                "clipAngle": 90
+                ]
             }
         },
         {
             "data": {
-                "url": "https: //raw.githubusercontent.com/jhannng/FIT3179-Homework-Assessment-9/main/malaysia-states.topojson",
+                "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/malaysia-states.topojson",
                 "format": {
                     "type": "topojson",
                     "feature": "states"
@@ -53,7 +52,7 @@
                     "lookup": "properties.Name",
                     "from": {
                         "data": {
-                            "url": "https://github.com/jhannng/2024-Semester-2/blob/main/FIT3179-Data-Visualisation/Assessment/Assignment-2/data/combined_birth_death_dataset.csv"
+                            "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/combined_birth_death_dataset.csv"
                         },
                         "key": "State",
                         "fields": [
@@ -95,18 +94,24 @@
                     "groupby": [ "State" ]
                 },
                 {
-                    "calculate": "datum['Birth'] - datum['Death']",
-                    "as": "Net_Population"
+                    "calculate": "datum['Birth']",
+                    "as": "Birth"
+                },
+                {
+                    "calculate": "datum['Death']",
+                    "as": "Death"
+                },
+                {
+                    "calculate": "(isFinite(datum.Birth) && isFinite(datum.Death)) ? datum.Birth - datum.Death : 0",
+                    "as": "Net_Change"
                 }
             ],
             "projection": {
                 "type": "mercator",
-                "scale": 1500,
                 "center": [
                     110,
                     3.5
-                ],
-                "clipAngle": 90
+                ]
             },
             "mark": {
                 "type": "geoshape",
@@ -115,7 +120,7 @@
             },
             "encoding": {
                 "color": {
-                    "field": "Net_Population",
+                    "field": "Net_Change",
                     "type": "quantitative",
                     "scale": {
                         "type": "linear",
@@ -123,11 +128,12 @@
                     },
                     "legend": {
                         "title": "Net Population Change"
-                    } }
+                    }
+                }
                 ,
                 "tooltip": [
                     { "field": "properties.Name", "type": "nominal", "title": "State" },
-                    { "field": "Net_Population", "type": "quantitative", "title": "Net Population Change" },
+                    { "field": "Net_Change", "type": "quantitative", "title": "Net Population Change" },
                     { "field": "Birth", "type": "quantitative", "title": "Births" },
                     { "field": "Death", "type": "quantitative", "title": "Deaths" }
                 ]
