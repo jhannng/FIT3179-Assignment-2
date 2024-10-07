@@ -1,0 +1,137 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 500,
+    "layer": [
+        {
+            "mark": {
+                "type": "geoshape",
+                "fill": "lightblue"
+            },
+            "data": {
+                "sphere": true
+            },
+            "projection": {
+                "type": "mercator",
+                "scale": 1500,
+                "center": [
+                    110,
+                    3.5
+                ],
+                "clipAngle": 90
+            }
+        },
+        {
+            "mark": {
+                "type": "geoshape",
+                "stroke": "gray",
+                "strokeWidth": 0.3
+            },
+            "data": {
+                "graticule": true
+            },
+            "projection": {
+                "type": "mercator",
+                "scale": 1500,
+                "center": [
+                    110,
+                    3.5
+                ],
+                "clipAngle": 90
+            }
+        },
+        {
+            "data": {
+                "url": "https: //raw.githubusercontent.com/jhannng/FIT3179-Homework-Assessment-9/main/malaysia-states.topojson",
+                "format": {
+                    "type": "topojson",
+                    "feature": "states"
+                }
+            },
+            "transform": [
+                {
+                    "lookup": "properties.Name",
+                    "from": {
+                        "data": {
+                            "url": "https://github.com/jhannng/2024-Semester-2/blob/main/FIT3179-Data-Visualisation/Assessment/Assignment-2/data/combined_birth_death_dataset.csv"
+                        },
+                        "key": "State",
+                        "fields": [
+                            "Sex",
+                            "Ethnicity",
+                            "Abs",
+                            "Event_Type",
+                            "Area"
+                        ]
+                    }
+                },
+                {
+                    "filter": {
+                        "and": [
+                            {
+                                "field": "Sex",
+                                "equal": "Both"
+                            },
+                            {
+                                "field": "Ethnicity",
+                                "equal": "Overall"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "aggregate": [
+                        {
+                            "op": "sum",
+                            "field": "Abs",
+                            "as": "Total_Abs"
+                        }
+                    ],
+                    "groupby": [ "State", "Event_Type" ]
+                },
+                {
+                    "pivot": "Event_Type",
+                    "value": "Total_Abs",
+                    "groupby": [ "State" ]
+                },
+                {
+                    "calculate": "datum['Birth'] - datum['Death']",
+                    "as": "Net_Population"
+                }
+            ],
+            "projection": {
+                "type": "mercator",
+                "scale": 1500,
+                "center": [
+                    110,
+                    3.5
+                ],
+                "clipAngle": 90
+            },
+            "mark": {
+                "type": "geoshape",
+                "stroke": "white",
+                "strokeWidth": 0.5
+            },
+            "encoding": {
+                "color": {
+                    "field": "Net_Population",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "linear",
+                        "scheme": "blueorange"
+                    },
+                    "legend": {
+                        "title": "Net Population Change"
+                    } }
+                ,
+                "tooltip": [
+                    { "field": "properties.Name", "type": "nominal", "title": "State" },
+                    { "field": "Net_Population", "type": "quantitative", "title": "Net Population Change" },
+                    { "field": "Birth", "type": "quantitative", "title": "Births" },
+                    { "field": "Death", "type": "quantitative", "title": "Deaths" }
+                ]
+            }
+        }
+    ]
+}
