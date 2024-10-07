@@ -35,53 +35,58 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/malaysia-states.topojson",
-                "format": {
-                    "type": "topojson",
-                    "feature": "states"
-                }
+                "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/geographical_distribution.csv"
             },
             "transform": [
                 {
-                    "lookup": "properties.Name",
+                    "lookup": "State",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/combined_birth_death_dataset.csv"
+                            "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/malaysia-states.topojson",
+                            "format": {
+                                "type": "topojson",
+                                "feature": "states"
+                            }
                         },
-                        "key": "State",
-                        "fields": [ "Sex", "Ethnicity", "Population", "EventType" ]
-                    }
+                        "key": "properties.Name"
+                    },
+                    "as": "geo"
                 },
                 {
-                    "filter": {
-                        "and": [
-                            { "field": "Sex", "equal": "Both" },
-                            { "field": "Ethnicity", "equal": "Overall" },
-                            { "field": "EventType", "equal": "Birth" }
-                        ]
-                    }
+                    "calculate": "datum.NumberOfBirth - datum.NumberOfDeath",
+                    "as": "NetChange"
                 }
             ],
+            "projection": {
+                "type": "mercator",
+                "center": [ 110, 3.5 ]
+            },
             "mark": {
                 "type": "geoshape",
                 "stroke": "white",
                 "strokeWidth": 0.5
             },
             "encoding": {
+                "shape": {
+                    "field": "geo",
+                    "type": "geojson"
+                },
                 "color": {
-                    "field": "Population",
+                    "field": "NetChange",
                     "type": "quantitative",
                     "scale": {
                         "type": "linear",
                         "scheme": "reds"
                     },
                     "legend": {
-                        "title": "Total Population"
+                        "title": "Net Change"
                     }
                 },
                 "tooltip": [
-                    { "field": "properties.Name", "type": "nominal", "title": "State: " },
-                    { "field": "Population", "type": "quantitative", "title": "Population: " }
+                    { "field": "State", "type": "nominal", "title": "State" },
+                    { "field": "NumberOfBirth", "type": "quantitative", "title": "Number of Births", "format": ",.0f" },
+                    { "field": "NumberOfDeath", "type": "quantitative", "title": "Number of Deaths", "format": ",.0f" },
+                    { "field": "NetChange", "type": "quantitative", "title": "Net Change", "format": ",.0f" }
                 ]
             }
         }
