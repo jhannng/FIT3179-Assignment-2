@@ -14,10 +14,7 @@
             "projection": {
                 "type": "mercator",
                 "scale": 1500,
-                "center": [
-                    110,
-                    3.5
-                ],
+                "center": [ 110, 3.5 ],
                 "clipAngle": 90
             }
         },
@@ -33,10 +30,7 @@
             "projection": {
                 "type": "mercator",
                 "scale": 350,
-                "center": [
-                    110,
-                    3.5
-                ]
+                "center": [ 110, 3.5 ]
             }
         },
         {
@@ -55,63 +49,26 @@
                             "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/combined_birth_death_dataset.csv"
                         },
                         "key": "State",
-                        "fields": [
-                            "Sex",
-                            "Ethnicity",
-                            "Abs",
-                            "Event_Type",
-                            "Area"
-                        ]
+                        "fields": [ "Sex", "Ethnicity", "Population", "Event_Type" ]
                     }
                 },
                 {
                     "filter": {
                         "and": [
-                            {
-                                "field": "Sex",
-                                "equal": "Both"
-                            },
-                            {
-                                "field": "Ethnicity",
-                                "equal": "Overall"
-                            }
+                            { "field": "Sex", "equal": "Both" },
+                            { "field": "Ethnicity", "equal": "Overall" }
                         ]
                     }
                 },
                 {
-                    "aggregate": [
-                        {
-                            "op": "sum",
-                            "field": "Abs",
-                            "as": "Total_Abs"
-                        }
-                    ],
-                    "groupby": [ "State", "Event_Type" ]
-                },
-                {
                     "pivot": "Event_Type",
-                    "value": "Total_Abs",
+                    "value": "Population",
                     "groupby": [ "State" ]
-                },
-                {
-                    "calculate": "datum['Birth']",
-                    "as": "Birth"
-                },
-                {
-                    "calculate": "datum['Death']",
-                    "as": "Death"
-                },
-                {
-                    "calculate": "(isFinite(datum.Birth) && isFinite(datum.Death)) ? datum.Birth - datum.Death : 0",
-                    "as": "Net_Change"
                 }
             ],
             "projection": {
                 "type": "mercator",
-                "center": [
-                    110,
-                    3.5
-                ]
+                "center": [ 110, 3.5 ]
             },
             "mark": {
                 "type": "geoshape",
@@ -120,20 +77,19 @@
             },
             "encoding": {
                 "color": {
-                    "field": "Net_Change",
+                    "field": "Total",
                     "type": "quantitative",
                     "scale": {
-                        "type": "linear",
-                        "scheme": "blueorange"
+                        "type": "log",
+                        "scheme": "reds"
                     },
                     "legend": {
-                        "title": "Net Population Change"
+                        "title": "Total Population"
                     }
-                }
-                ,
+                },
                 "tooltip": [
                     { "field": "properties.Name", "type": "nominal", "title": "State" },
-                    { "field": "Net_Change", "type": "quantitative", "title": "Net Population Change" },
+                    { "field": "Total", "type": "quantitative", "title": "Total Population" },
                     { "field": "Birth", "type": "quantitative", "title": "Births" },
                     { "field": "Death", "type": "quantitative", "title": "Deaths" }
                 ]
