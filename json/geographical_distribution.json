@@ -49,27 +49,19 @@
                             "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/combined_birth_death_dataset.csv"
                         },
                         "key": "State",
-                        "fields": [ "Sex", "Ethnicity", "Population", "Event_Type" ]
+                        "fields": [ "Sex", "Ethnicity", "Population", "EventType" ]
                     }
                 },
                 {
                     "filter": {
                         "and": [
                             { "field": "Sex", "equal": "Both" },
-                            { "field": "Ethnicity", "equal": "Overall" }
+                            { "field": "Ethnicity", "equal": "Overall" },
+                            { "field": "EventType", "equal": "Birth" }
                         ]
                     }
-                },
-                {
-                    "pivot": "Event_Type",
-                    "value": "Population",
-                    "groupby": [ "State" ]
                 }
             ],
-            "projection": {
-                "type": "mercator",
-                "center": [ 110, 3.5 ]
-            },
             "mark": {
                 "type": "geoshape",
                 "stroke": "white",
@@ -77,10 +69,10 @@
             },
             "encoding": {
                 "color": {
-                    "field": "Total",
+                    "field": "Population",
                     "type": "quantitative",
                     "scale": {
-                        "type": "log",
+                        "type": "linear",
                         "scheme": "reds"
                     },
                     "legend": {
@@ -88,10 +80,8 @@
                     }
                 },
                 "tooltip": [
-                    { "field": "properties.Name", "type": "nominal", "title": "State" },
-                    { "field": "Total", "type": "quantitative", "title": "Total Population" },
-                    { "field": "Birth", "type": "quantitative", "title": "Births" },
-                    { "field": "Death", "type": "quantitative", "title": "Deaths" }
+                    { "field": "properties.Name", "type": "nominal", "title": "State: " },
+                    { "field": "Population", "type": "quantitative", "title": "Population: " }
                 ]
             }
         }
