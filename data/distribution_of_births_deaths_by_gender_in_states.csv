@@ -1,0 +1,65 @@
+﻿State,Date,Sex,Ethnicity,NumberOfPeople,Type
+Johor,01/01/2022,Male,Overall,14618,Death
+Johor,01/01/2022,Female,Overall,10687,Death
+Kedah,01/01/2022,Male,Overall,9792,Death
+Kedah,01/01/2022,Female,Overall,7836,Death
+Kelantan,01/01/2022,Male,Overall,7411,Death
+Kelantan,01/01/2022,Female,Overall,6034,Death
+Melaka,01/01/2022,Male,Overall,3669,Death
+Melaka,01/01/2022,Female,Overall,2961,Death
+Negeri Sembilan,01/01/2022,Male,Overall,4959,Death
+Negeri Sembilan,01/01/2022,Female,Overall,3677,Death
+Pahang,01/01/2022,Male,Overall,6516,Death
+Pahang,01/01/2022,Female,Overall,4506,Death
+Perak,01/01/2022,Male,Overall,12641,Death
+Perak,01/01/2022,Female,Overall,9700,Death
+Perlis,01/01/2022,Male,Overall,1348,Death
+Perlis,01/01/2022,Female,Overall,1074,Death
+Pulau Pinang,01/01/2022,Male,Overall,7338,Death
+Pulau Pinang,01/01/2022,Female,Overall,5582,Death
+Sabah,01/01/2022,Male,Overall,10084,Death
+Sabah,01/01/2022,Female,Overall,7311,Death
+Sarawak,01/01/2022,Male,Overall,9566,Death
+Sarawak,01/01/2022,Female,Overall,7061,Death
+Selangor,01/01/2022,Male,Overall,19023,Death
+Selangor,01/01/2022,Female,Overall,13838,Death
+Terengganu,01/01/2022,Male,Overall,4762,Death
+Terengganu,01/01/2022,Female,Overall,3924,Death
+W.P. Kuala Lumpur,01/01/2022,Male,Overall,5706,Death
+W.P. Kuala Lumpur,01/01/2022,Female,Overall,4256,Death
+W.P. Labuan,01/01/2022,Male,Overall,218,Death
+W.P. Labuan,01/01/2022,Female,Overall,174,Death
+W.P. Putrajaya,01/01/2022,Male,Overall,139,Death
+W.P. Putrajaya,01/01/2022,Female,Overall,114,Death
+Johor,01/01/2022,Male,Overall,24765,Birth
+Johor,01/01/2022,Female,Overall,23489,Birth
+Kedah,01/01/2022,Male,Overall,15784,Birth
+Kedah,01/01/2022,Female,Overall,15012,Birth
+Kelantan,01/01/2022,Male,Overall,17464,Birth
+Kelantan,01/01/2022,Female,Overall,16344,Birth
+Melaka,01/01/2022,Male,Overall,6745,Birth
+Melaka,01/01/2022,Female,Overall,6360,Birth
+Negeri Sembilan,01/01/2022,Male,Overall,8406,Birth
+Negeri Sembilan,01/01/2022,Female,Overall,7585,Birth
+Pahang,01/01/2022,Male,Overall,12209,Birth
+Pahang,01/01/2022,Female,Overall,11359,Birth
+Perak,01/01/2022,Male,Overall,15202,Birth
+Perak,01/01/2022,Female,Overall,14341,Birth
+Perlis,01/01/2022,Male,Overall,1967,Birth
+Perlis,01/01/2022,Female,Overall,1779,Birth
+Pulau Pinang,01/01/2022,Male,Overall,9069,Birth
+Pulau Pinang,01/01/2022,Female,Overall,8662,Birth
+Sabah,01/01/2022,Male,Overall,22471,Birth
+Sabah,01/01/2022,Female,Overall,21146,Birth
+Sarawak,01/01/2022,Male,Overall,15949,Birth
+Sarawak,01/01/2022,Female,Overall,14988,Birth
+Selangor,01/01/2022,Male,Overall,43346,Birth
+Selangor,01/01/2022,Female,Overall,40312,Birth
+Terengganu,01/01/2022,Male,Overall,13077,Birth
+Terengganu,01/01/2022,Female,Overall,12227,Birth
+W.P. Kuala Lumpur,01/01/2022,Male,Overall,10234,Birth
+W.P. Kuala Lumpur,01/01/2022,Female,Overall,9619,Birth
+W.P. Labuan,01/01/2022,Male,Overall,704,Birth
+W.P. Labuan,01/01/2022,Female,Overall,670,Birth
+W.P. Putrajaya,01/01/2022,Male,Overall,953,Birth
+W.P. Putrajaya,01/01/2022,Female,Overall,886,Birth

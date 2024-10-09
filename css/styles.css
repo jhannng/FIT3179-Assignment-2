@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  margin: 0rem;
+  padding: 1rem;
+  font-size: 16px;
+  background-color: #fbfbfb;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 - 900;
+  font-style: normal;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 100 - 900;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300 - 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.container__title {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.title {
+  color: #191919;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.title:hover {
+  color: #333333;
+}
+
+.title__description {
+  color: #101010;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+}
+
+.container__visulisation {
+  gap: 25px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container__visulisation_title {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #808080;
+}
+
+.title__visualisation {
+  color: #d3d3d3;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+}
+
+.container__visulisation_chart {
+  flex: 1;
+  display: flex;
+  max-width: 50%;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.visualisation_chart {
+  width: auto;
+  height: auto;
+  margin: 25px 50px;
+}
+
+.container__visulisation_description {
+  flex: 1;
+  display: flex;
+  max-width: 50%;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.chart_description {
+  margin: 25px 50px;
+  text-align: justify;
+}
+
+.description_text {
+  color: #101010;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+}

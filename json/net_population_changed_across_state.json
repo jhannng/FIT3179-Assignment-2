@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
+    "width": 700,
     "height": 500,
     "layer": [
         {
@@ -79,10 +79,10 @@
                     }
                 },
                 "tooltip": [
-                    { "field": "State", "type": "nominal", "title": "State: " },
-                    { "field": "NumberOfBirth", "type": "quantitative", "title": "Number of Births: ", "format": ",.0f" },
-                    { "field": "NumberOfDeath", "type": "quantitative", "title": "Number of Deaths: ", "format": ",.0f" },
-                    { "field": "NetChange", "type": "quantitative", "title": "Net Change: ", "format": ",.0f" }
+                    { "field": "State", "type": "nominal", "title": "State " },
+                    { "field": "NumberOfBirth", "type": "quantitative", "title": "Number of Birth ", "format": ",.0f" },
+                    { "field": "NumberOfDeath", "type": "quantitative", "title": "Number of Death ", "format": ",.0f" },
+                    { "field": "NetChange", "type": "quantitative", "title": "Net Change ", "format": ",.0f" }
                 ]
             }
         }

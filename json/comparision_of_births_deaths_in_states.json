@@ -1,0 +1,96 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 650,
+    "height": 500,
+    "data": {
+        "url": "../data/compared_births_deaths_across_states.csv"
+    },
+    "transform": [
+        { "calculate": "datum.NumberOfDeath * -1", "as": "NegativeDeaths" }
+    ],
+    "encoding": {
+        "y": {
+            "field": "State",
+            "type": "nominal",
+            "axis": {
+                "title": "State",
+                "titlePadding": 10
+            }
+        },
+        "tooltip": [
+            { "field": "State", "type": "nominal" },
+            { "field": "NumberOfBirth", "type": "quantitative", "title": "Number of Births", "format": ",.0f" },
+            { "field": "NumberOfDeath", "type": "quantitative", "title": "Number of Deaths", "format": ",.0f" }
+        ]
+    },
+    "layer": [
+        {
+            "mark": "bar",
+            "encoding": {
+                "x": {
+                    "field": "NumberOfBirth",
+                    "type": "quantitative",
+                    "axis": {
+                        "title": "Frequency",
+                        "orient": "top",
+                        "titleAnchor": "middle",
+                        "titleAlign": "center",
+                        "titlePadding": 20
+                    },
+                    "scale": { "domain": [ 0, 80000 ] }
+                },
+                "color": { "value": "#4CAF50" }
+
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "top",
+                "dy": 10
+            },
+            "encoding": {
+                "text": { "value": "Live Births" },
+                "x": { "value": 488 },
+                "y": { "value": 510 }
+            }
+        },
+        {
+            "mark": "bar",
+            "encoding": {
+                "x": {
+                    "field": "NegativeDeaths",
+                    "type": "quantitative",
+                    "scale": { "domain": [ -80000, 0 ] }
+                },
+                "color": { "value": "#2196F3" }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "top",
+                "dy": 10
+            },
+            "encoding": {
+                "text": { "value": "Deaths" },
+                "x": { "value": 162 },
+                "y": { "value": 510 }
+            }
+        },
+        {
+            "mark": "rule",
+            "encoding": {
+                "x": { "value": 0 },
+                "color": { "value": "black" },
+                "size": { "value": 1 }
+            }
+        }
+    ],
+    "config": {
+        "view": { "stroke": null },
+        "axis": { "grid": false }
+    }
+}

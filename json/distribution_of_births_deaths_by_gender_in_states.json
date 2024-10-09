@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 580,
+    "height": 470,
+    "data": {
+        "url": "../data/distribution.csv"
+    },
+    "mark": "rect",
+    "encoding": {
+        "x": {
+            "field": "State",
+            "type": "nominal",
+            "title": "State",
+            "axis": {
+                "titlePadding": 10,
+                "labelAngle": -45
+            }
+        },
+        "y": {
+            "field": "Type_Sex",
+            "type": "nominal",
+            "title": "Distribution of Sex",
+            "axis": {
+                "titlePadding": 10
+            },
+            "sort": [ "Birth Male", "Birth Female", "Death Male", "Death Female" ]
+        },
+        "color": {
+            "field": "NumberOfPeople",
+            "type": "quantitative",
+            "title": "Number of People",
+            "scale": { "scheme": "viridis" }
+        },
+        "tooltip": [
+            { "field": "State", "type": "nominal", "title": "State" },
+            { "field": "Type", "type": "nominal", "title": "Type" },
+            { "field": "Sex", "type": "nominal", "title": "Sex" },
+            { "field": "NumberOfPeople", "type": "quantitative", "title": "Number of People", "format": ",.0f" }
+        ]
+    },
+    "transform": [
+        {
+            "calculate": "datum.Type + ' of ' + datum.Sex",
+            "as": "Type_Sex"
+        }
+    ]
+}
