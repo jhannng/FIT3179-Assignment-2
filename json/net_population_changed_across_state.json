@@ -35,7 +35,7 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/geographical_distribution_of_births_deaths.csv"
+                "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/net_population_changed_across_state.csv"
             },
             "transform": [
                 {

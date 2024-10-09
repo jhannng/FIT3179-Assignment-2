@@ -3,7 +3,7 @@
     "width": 650,
     "height": 500,
     "data": {
-        "url": "../data/compared_births_deaths_across_states.csv"
+        "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/comparision_of_births_deaths_in_states.csv"
     },
     "transform": [
         { "calculate": "datum.NumberOfDeath * -1", "as": "NegativeDeaths" }

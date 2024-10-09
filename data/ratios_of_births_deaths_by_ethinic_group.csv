@@ -1,0 +1,129 @@
+﻿State,Date,Ethnicity,NumberOfPeople,Type
+Johor,01/01/2022,Bumi Malay,14317,Death
+Kedah,01/01/2022,Bumi Malay,13747,Death
+Kelantan,01/01/2022,Bumi Malay,12602,Death
+Melaka,01/01/2022,Bumi Malay,4060,Death
+Negeri Sembilan,01/01/2022,Bumi Malay,4806,Death
+Pahang,01/01/2022,Bumi Malay,7872,Death
+Perak,01/01/2022,Bumi Malay,11327,Death
+Perlis,01/01/2022,Bumi Malay,2094,Death
+Pulau Pinang,01/01/2022,Bumi Malay,4710,Death
+Sabah,01/01/2022,Bumi Malay,2381,Death
+Sarawak,01/01/2022,Bumi Malay,3325,Death
+Selangor,01/01/2022,Bumi Malay,15357,Death
+Terengganu,01/01/2022,Bumi Malay,8346,Death
+W.P. Kuala Lumpur,01/01/2022,Bumi Malay,3304,Death
+W.P. Labuan,01/01/2022,Bumi Malay,149,Death
+W.P. Putrajaya,01/01/2022,Bumi Malay,230,Death
+Johor,01/01/2022,Bumi Other,257,Death
+Kedah,01/01/2022,Bumi Other,17,Death
+Kelantan,01/01/2022,Bumi Other,120,Death
+Melaka,01/01/2022,Bumi Other,25,Death
+Negeri Sembilan,01/01/2022,Bumi Other,118,Death
+Pahang,01/01/2022,Bumi Other,533,Death
+Perak,01/01/2022,Bumi Other,420,Death
+Perlis,01/01/2022,Bumi Other,0,Death
+Pulau Pinang,01/01/2022,Bumi Other,20,Death
+Sabah,01/01/2022,Bumi Other,11039,Death
+Sarawak,01/01/2022,Bumi Other,8858,Death
+Selangor,01/01/2022,Bumi Other,319,Death
+Terengganu,01/01/2022,Bumi Other,13,Death
+W.P. Kuala Lumpur,01/01/2022,Bumi Other,50,Death
+W.P. Labuan,01/01/2022,Bumi Other,122,Death
+W.P. Putrajaya,01/01/2022,Bumi Other,3,Death
+Johor,01/01/2022,Chinese,8090,Death
+Kedah,01/01/2022,Chinese,2309,Death
+Kelantan,01/01/2022,Chinese,478,Death
+Melaka,01/01/2022,Chinese,1913,Death
+Negeri Sembilan,01/01/2022,Chinese,2183,Death
+Pahang,01/01/2022,Chinese,1939,Death
+Perak,01/01/2022,Chinese,7507,Death
+Perlis,01/01/2022,Chinese,234,Death
+Pulau Pinang,01/01/2022,Chinese,6313,Death
+Sabah,01/01/2022,Chinese,2665,Death
+Sarawak,01/01/2022,Chinese,4301,Death
+Selangor,01/01/2022,Chinese,10318,Death
+Terengganu,01/01/2022,Chinese,241,Death
+W.P. Kuala Lumpur,01/01/2022,Chinese,4759,Death
+W.P. Labuan,01/01/2022,Chinese,79,Death
+W.P. Putrajaya,01/01/2022,Chinese,4,Death
+Johor,01/01/2022,Indian,1912,Death
+Kedah,01/01/2022,Indian,1167,Death
+Kelantan,01/01/2022,Indian,36,Death
+Melaka,01/01/2022,Indian,503,Death
+Negeri Sembilan,01/01/2022,Indian,1371,Death
+Pahang,01/01/2022,Indian,465,Death
+Perak,01/01/2022,Indian,2763,Death
+Perlis,01/01/2022,Indian,30,Death
+Pulau Pinang,01/01/2022,Indian,1678,Death
+Sabah,01/01/2022,Indian,49,Death
+Sarawak,01/01/2022,Indian,39,Death
+Selangor,01/01/2022,Indian,5517,Death
+Terengganu,01/01/2022,Indian,21,Death
+W.P. Kuala Lumpur,01/01/2022,Indian,1370,Death
+W.P. Labuan,01/01/2022,Indian,5,Death
+W.P. Putrajaya,01/01/2022,Indian,9,Death
+Johor,01/01/2022,Bumi Malay,35918,Birth
+Kedah,01/01/2022,Bumi Malay,27494,Birth
+Kelantan,01/01/2022,Bumi Malay,32464,Birth
+Melaka,01/01/2022,Bumi Malay,10927,Birth
+Negeri Sembilan,01/01/2022,Bumi Malay,12244,Birth
+Pahang,01/01/2022,Bumi Malay,19461,Birth
+Perak,01/01/2022,Bumi Malay,22618,Birth
+Perlis,01/01/2022,Bumi Malay,3506,Birth
+Pulau Pinang,01/01/2022,Bumi Malay,11253,Birth
+Sabah,01/01/2022,Bumi Malay,7258,Birth
+Sarawak,01/01/2022,Bumi Malay,9174,Birth
+Selangor,01/01/2022,Bumi Malay,60197,Birth
+Terengganu,01/01/2022,Bumi Malay,24678,Birth
+W.P. Kuala Lumpur,01/01/2022,Bumi Malay,11884,Birth
+W.P. Labuan,01/01/2022,Bumi Malay,515,Birth
+W.P. Putrajaya,01/01/2022,Bumi Malay,1762,Birth
+Johor,01/01/2022,Bumi Other,1097,Birth
+Kedah,01/01/2022,Bumi Other,80,Birth
+Kelantan,01/01/2022,Bumi Other,412,Birth
+Melaka,01/01/2022,Bumi Other,149,Birth
+Negeri Sembilan,01/01/2022,Bumi Other,383,Birth
+Pahang,01/01/2022,Bumi Other,1874,Birth
+Perak,01/01/2022,Bumi Other,1105,Birth
+Perlis,01/01/2022,Bumi Other,12,Birth
+Pulau Pinang,01/01/2022,Bumi Other,98,Birth
+Sabah,01/01/2022,Bumi Other,28429,Birth
+Sarawak,01/01/2022,Bumi Other,16612,Birth
+Selangor,01/01/2022,Bumi Other,1607,Birth
+Terengganu,01/01/2022,Bumi Other,45,Birth
+W.P. Kuala Lumpur,01/01/2022,Bumi Other,366,Birth
+W.P. Labuan,01/01/2022,Bumi Other,623,Birth
+W.P. Putrajaya,01/01/2022,Bumi Other,36,Birth
+Johor,01/01/2022,Chinese,7440,Birth
+Kedah,01/01/2022,Chinese,1205,Birth
+Kelantan,01/01/2022,Chinese,346,Birth
+Melaka,01/01/2022,Chinese,1295,Birth
+Negeri Sembilan,01/01/2022,Chinese,1366,Birth
+Pahang,01/01/2022,Chinese,1209,Birth
+Perak,01/01/2022,Chinese,3067,Birth
+Perlis,01/01/2022,Chinese,100,Birth
+Pulau Pinang,01/01/2022,Chinese,3931,Birth
+Sabah,01/01/2022,Chinese,1098,Birth
+Sarawak,01/01/2022,Chinese,4655,Birth
+Selangor,01/01/2022,Chinese,10418,Birth
+Terengganu,01/01/2022,Chinese,128,Birth
+W.P. Kuala Lumpur,01/01/2022,Chinese,3936,Birth
+W.P. Labuan,01/01/2022,Chinese,46,Birth
+W.P. Putrajaya,01/01/2022,Chinese,9,Birth
+Johor,01/01/2022,Indian,2225,Birth
+Kedah,01/01/2022,Indian,1021,Birth
+Kelantan,01/01/2022,Indian,22,Birth
+Melaka,01/01/2022,Indian,479,Birth
+Negeri Sembilan,01/01/2022,Indian,1702,Birth
+Pahang,01/01/2022,Indian,465,Birth
+Perak,01/01/2022,Indian,2325,Birth
+Perlis,01/01/2022,Indian,18,Birth
+Pulau Pinang,01/01/2022,Indian,1474,Birth
+Sabah,01/01/2022,Indian,62,Birth
+Sarawak,01/01/2022,Indian,33,Birth
+Selangor,01/01/2022,Indian,6371,Birth
+Terengganu,01/01/2022,Indian,4,Birth
+W.P. Kuala Lumpur,01/01/2022,Indian,1211,Birth
+W.P. Labuan,01/01/2022,Indian,6,Birth
+W.P. Putrajaya,01/01/2022,Indian,21,Birth

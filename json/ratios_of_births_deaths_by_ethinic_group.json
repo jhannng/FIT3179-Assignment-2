@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 305,
+    "height": 370,
+    "data": {
+        "url": "../data/ratios_of_births_deaths_by_ethinic_group.csv"
+    },
+    "transform": [
+        {
+            "aggregate": [
+                {
+                    "op": "sum",
+                    "field": "NumberOfPeople",
+                    "as": "TotalPeople"
+                }
+            ],
+            "groupby": [ "Ethnicity", "Type" ]
+        }
+    ],
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "Ethnicity",
+            "type": "nominal",
+            "axis": {
+                "labelAngle": -45,
+                "titlePadding": 10
+            }
+        },
+        "y": {
+            "field": "TotalPeople",
+            "type": "quantitative",
+            "title": "Number of People",
+            "axis": {
+                "titlePadding": 10
+            }
+        },
+        "color": {
+            "field": "Ethnicity",
+            "type": "nominal"
+        },
+        "column": {
+            "field": "Type",
+            "type": "nominal"
+        },
+        "tooltip": [
+            { "field": "TotalPeople", "type": "quantitative", "title": "Total Number of People", "format": ",.0f" }
+        ]
+    }
+}

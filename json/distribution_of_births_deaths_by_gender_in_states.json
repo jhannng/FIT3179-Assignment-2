@@ -1,9 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 580,
-    "height": 470,
+    "width": 560,
+    "height": 450,
     "data": {
-        "url": "../data/distribution.csv"
+        "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/distribution_of_births_deaths_by_gender_in_states.csv"
     },
     "mark": "rect",
     "encoding": {
