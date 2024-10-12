@@ -66,14 +66,9 @@
                     "as": "geo"
                 },
                 {
-                    "calculate": "timeParse(datum.Date, '%Y-%m-%d')",
-                    "as": "ParsedDate"
-                },
-                {
                     "filter": {
-                        "field": "ParsedDate",
-                        "timeUnit": "year",
-                        "equal": { "expr": "year(datum.ParsedDate) == year_selected" }
+                        "field": "Year",
+                        "equal": { "expr": "year(datum.Year) == year_selected" }
                     }
                 }
             ],
