@@ -11,7 +11,7 @@
                 "min": 2012,
                 "max": 2022,
                 "step": 1,
-                "name": "Year: "
+                "name": "Year Selection: "
             }
         }
     ],
@@ -48,7 +48,7 @@
         },
         {
             "data": {
-                "url": "../data/net_population_changed_across_state.csv"
+                "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/net_population_changed_across_state.csv"
             },
             "transform": [
                 {
@@ -66,10 +66,7 @@
                     "as": "geo"
                 },
                 {
-                    "filter": {
-                        "field": "Year",
-                        "equal": { "expr": "year(datum.Year) == year_selected" }
-                    }
+                    "filter": "datum.Year == year_selected"
                 }
             ],
             "projection": {
@@ -99,6 +96,7 @@
                 },
                 "tooltip": [
                     { "field": "State", "type": "nominal", "title": "State " },
+                    { "field": "Year", "type": "quantitative", "title": "Year " },
                     { "field": "NumberOfBirth", "type": "quantitative", "title": "Number of Birth ", "format": ",.0f" },
                     { "field": "NumberOfDeath", "type": "quantitative", "title": "Number of Death ", "format": ",.0f" },
                     { "field": "NetChange", "type": "quantitative", "title": "Net Change ", "format": ",.0f" }
