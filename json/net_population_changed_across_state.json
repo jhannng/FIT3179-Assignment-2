@@ -2,6 +2,19 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 700,
     "height": 500,
+    "params": [
+        {
+            "name": "year_selected",
+            "value": 2022,
+            "bind": {
+                "input": "range",
+                "min": 2012,
+                "max": 2022,
+                "step": 1,
+                "name": "Year: "
+            }
+        }
+    ],
     "layer": [
         {
             "mark": {
@@ -35,7 +48,7 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/net_population_changed_across_state.csv"
+                "url": "../data/net_population_changed_across_state.csv"
             },
             "transform": [
                 {
@@ -51,6 +64,17 @@
                         "key": "properties.Name"
                     },
                     "as": "geo"
+                },
+                {
+                    "calculate": "timeParse(datum.Date, '%Y-%m-%d')",
+                    "as": "ParsedDate"
+                },
+                {
+                    "filter": {
+                        "field": "ParsedDate",
+                        "timeUnit": "year",
+                        "equal": { "expr": "year(datum.ParsedDate) == year_selected" }
+                    }
                 }
             ],
             "projection": {
