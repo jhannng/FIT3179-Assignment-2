@@ -1,9 +1,22 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 560,
-    "height": 450,
+    "width": 790,
+    "height": 480,
+    "params": [
+        {
+            "name": "YearFilter",
+            "value": 2022,
+            "bind": {
+                "input": "range",
+                "min": 2012,
+                "max": 2022,
+                "step": 1,
+                "name": "Year Selection: "
+            }
+        }
+    ],
     "data": {
-        "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/distribution_of_births_deaths_by_gender_in_states.csv"
+        "url": "../data/distribution_of_births_deaths_by_gender_in_states.csv"
     },
     "mark": "rect",
     "encoding": {
@@ -33,12 +46,14 @@
         },
         "tooltip": [
             { "field": "State", "type": "nominal", "title": "State" },
-            { "field": "Type", "type": "nominal", "title": "Type" },
+            { "field": "Year", "type": "quantitative", "title": "Year" },
+            { "field": "Type", "type": "nominal", "title": "Category" },
             { "field": "Sex", "type": "nominal", "title": "Sex" },
             { "field": "NumberOfPeople", "type": "quantitative", "title": "Number of People", "format": ",.0f" }
         ]
     },
     "transform": [
+        { "filter": "datum.Year == YearFilter" },
         {
             "calculate": "datum.Type + ' of ' + datum.Sex",
             "as": "Type_Sex"

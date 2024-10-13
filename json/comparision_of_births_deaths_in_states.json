@@ -1,12 +1,39 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 650,
+    "width": 860,
     "height": 500,
+    "params": [
+        {
+            "name": "YearFilter",
+            "value": 2022,
+            "bind": {
+                "input": "range",
+                "min": 2012,
+                "max": 2022,
+                "step": 1,
+                "name": "Year Selection: "
+            }
+        },
+        {
+            "name": "StateFilter",
+            "value": "All",
+            "bind": {
+                "input": "select",
+                "options": [ "All", "Johor", "Kedah", "Kelantan", "Melaka", "Negeri Sembilan", "Pahang", "Perak", "Perlis", "Pulau Pinang",
+                    "Sabah", "Sarawak", "Selangor", "Terengganu", "W.P. Kuala Lumpur", "W.P. Labuan", "W.P. Putrajaya" ],
+                "labels": [ "All State", "Johor", "Kedah", "Kelantan", "Melaka", "Negeri Sembilan", "Pahang", "Perak", "Perlis", "Pulau Pinang",
+                    "Sabah", "Sarawak", "Selangor", "Terengganu", "W.P. Kuala Lumpur", "W.P. Labuan", "W.P. Putrajaya" ],
+                "name": "State Selection: "
+            }
+        }
+    ],
     "data": {
-        "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/comparision_of_births_deaths_in_states.csv"
+        "url": "../data/comparision_of_births_deaths_in_states.csv"
     },
     "transform": [
-        { "calculate": "datum.NumberOfDeath * -1", "as": "NegativeDeaths" }
+        { "calculate": "datum.NumberOfDeath * -1", "as": "NegativeDeaths" },
+        { "filter": "datum.Year == YearFilter" },
+        { "filter": "StateFilter == 'All' || datum.State == StateFilter" }
     ],
     "encoding": {
         "y": {
@@ -19,6 +46,7 @@
         },
         "tooltip": [
             { "field": "State", "type": "nominal" },
+            { "field": "Year", "type": "quantitative", "title": "Year" },
             { "field": "NumberOfBirth", "type": "quantitative", "title": "Number of Births", "format": ",.0f" },
             { "field": "NumberOfDeath", "type": "quantitative", "title": "Number of Deaths", "format": ",.0f" }
         ]
@@ -31,7 +59,7 @@
                     "field": "NumberOfBirth",
                     "type": "quantitative",
                     "axis": {
-                        "title": "Frequency",
+                        "title": "Number of People",
                         "orient": "top",
                         "titleAnchor": "middle",
                         "titleAlign": "center",
@@ -51,8 +79,8 @@
                 "dy": 10
             },
             "encoding": {
-                "text": { "value": "Live Births" },
-                "x": { "value": 488 },
+                "text": { "value": "Births" },
+                "x": { "value": 750 },
                 "y": { "value": 510 }
             }
         },
@@ -76,7 +104,7 @@
             },
             "encoding": {
                 "text": { "value": "Deaths" },
-                "x": { "value": 162 },
+                "x": { "value": 250 },
                 "y": { "value": 510 }
             }
         },

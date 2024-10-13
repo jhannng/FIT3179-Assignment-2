@@ -1,17 +1,177 @@
-﻿State,Date,Sex,Ethnicity,NumberOfBirth,NumberOfDeath
-Johor,01/01/2022,Both,Overall,48254,25305
-Kedah,01/01/2022,Both,Overall,30796,17628
-Kelantan,01/01/2022,Both,Overall,33808,13445
-Melaka,01/01/2022,Both,Overall,13105,6630
-Negeri Sembilan,01/01/2022,Both,Overall,15991,8636
-Pahang,01/01/2022,Both,Overall,23568,11022
-Perak,01/01/2022,Both,Overall,29543,22341
-Perlis,01/01/2022,Both,Overall,3746,2422
-Pulau Pinang,01/01/2022,Both,Overall,17731,12920
-Sabah,01/01/2022,Both,Overall,43617,17395
-Sarawak,01/01/2022,Both,Overall,30937,16627
-Selangor,01/01/2022,Both,Overall,83658,32861
-Terengganu,01/01/2022,Both,Overall,25304,8686
-W.P. Kuala Lumpur,01/01/2022,Both,Overall,19853,9962
-W.P. Labuan,01/01/2022,Both,Overall,1374,392
-W.P. Putrajaya,01/01/2022,Both,Overall,1839,253
+﻿State,Date,Year,Sex,Ethnicity,NumberOfBirth,NumberOfDeath
+Johor,01/01/2012,2012,Both,Overall,60444,17201
+Johor,01/01/2013,2013,Both,Overall,57402,17696
+Johor,01/01/2014,2014,Both,Overall,60443,17904
+Johor,01/01/2015,2015,Both,Overall,60543,18853
+Johor,01/01/2016,2016,Both,Overall,59561,19924
+Johor,01/01/2017,2017,Both,Overall,61085,20662
+Johor,01/01/2018,2018,Both,Overall,61084,21117
+Johor,01/01/2019,2019,Both,Overall,60261,21799
+Johor,01/01/2020,2020,Both,Overall,56908,20646
+Johor,01/01/2021,2021,Both,Overall,49990,26951
+Johor,01/01/2022,2022,Both,Overall,48254,25305
+Kedah,01/01/2012,2012,Both,Overall,36390,12268
+Kedah,01/01/2013,2013,Both,Overall,35032,12516
+Kedah,01/01/2014,2014,Both,Overall,36505,13017
+Kedah,01/01/2015,2015,Both,Overall,36784,13674
+Kedah,01/01/2016,2016,Both,Overall,35967,13771
+Kedah,01/01/2017,2017,Both,Overall,36693,14332
+Kedah,01/01/2018,2018,Both,Overall,35643,14552
+Kedah,01/01/2019,2019,Both,Overall,34511,14302
+Kedah,01/01/2020,2020,Both,Overall,33828,13671
+Kedah,01/01/2021,2021,Both,Overall,33040,18457
+Kedah,01/01/2022,2022,Both,Overall,30796,17628
+Kelantan,01/01/2012,2012,Both,Overall,37025,9890
+Kelantan,01/01/2013,2013,Both,Overall,36413,10042
+Kelantan,01/01/2014,2014,Both,Overall,39279,10588
+Kelantan,01/01/2015,2015,Both,Overall,39108,10789
+Kelantan,01/01/2016,2016,Both,Overall,38455,10809
+Kelantan,01/01/2017,2017,Both,Overall,39122,11203
+Kelantan,01/01/2018,2018,Both,Overall,38360,11316
+Kelantan,01/01/2019,2019,Both,Overall,36858,11410
+Kelantan,01/01/2020,2020,Both,Overall,36275,10928
+Kelantan,01/01/2021,2021,Both,Overall,34764,13926
+Kelantan,01/01/2022,2022,Both,Overall,33808,13445
+Melaka,01/01/2012,2012,Both,Overall,14278,4575
+Melaka,01/01/2013,2013,Both,Overall,13692,4747
+Melaka,01/01/2014,2014,Both,Overall,14568,4728
+Melaka,01/01/2015,2015,Both,Overall,14554,4959
+Melaka,01/01/2016,2016,Both,Overall,14402,5186
+Melaka,01/01/2017,2017,Both,Overall,14389,5523
+Melaka,01/01/2018,2018,Both,Overall,14388,5407
+Melaka,01/01/2019,2019,Both,Overall,14136,5547
+Melaka,01/01/2020,2020,Both,Overall,13855,5444
+Melaka,01/01/2021,2021,Both,Overall,13192,7083
+Melaka,01/01/2022,2022,Both,Overall,13105,6630
+Negeri Sembilan,01/01/2012,2012,Both,Overall,17903,5895
+Negeri Sembilan,01/01/2013,2013,Both,Overall,17509,6213
+Negeri Sembilan,01/01/2014,2014,Both,Overall,18676,6410
+Negeri Sembilan,01/01/2015,2015,Both,Overall,18423,6611
+Negeri Sembilan,01/01/2016,2016,Both,Overall,18036,6810
+Negeri Sembilan,01/01/2017,2017,Both,Overall,18078,7111
+Negeri Sembilan,01/01/2018,2018,Both,Overall,18177,7298
+Negeri Sembilan,01/01/2019,2019,Both,Overall,17464,7168
+Negeri Sembilan,01/01/2020,2020,Both,Overall,17120,7011
+Negeri Sembilan,01/01/2021,2021,Both,Overall,16777,9165
+Negeri Sembilan,01/01/2022,2022,Both,Overall,15991,8636
+Pahang,01/01/2012,2012,Both,Overall,27411,7791
+Pahang,01/01/2013,2013,Both,Overall,26968,8146
+Pahang,01/01/2014,2014,Both,Overall,28743,8301
+Pahang,01/01/2015,2015,Both,Overall,28059,8471
+Pahang,01/01/2016,2016,Both,Overall,27626,8878
+Pahang,01/01/2017,2017,Both,Overall,27555,9261
+Pahang,01/01/2018,2018,Both,Overall,27006,9246
+Pahang,01/01/2019,2019,Both,Overall,25887,9179
+Pahang,01/01/2020,2020,Both,Overall,25344,8686
+Pahang,01/01/2021,2021,Both,Overall,24507,10366
+Pahang,01/01/2022,2022,Both,Overall,23568,11022
+Perak,01/01/2012,2012,Both,Overall,37712,16395
+Perak,01/01/2013,2013,Both,Overall,35427,16386
+Perak,01/01/2014,2014,Both,Overall,36586,16925
+Perak,01/01/2015,2015,Both,Overall,36284,17159
+Perak,01/01/2016,2016,Both,Overall,35685,17820
+Perak,01/01/2017,2017,Both,Overall,34838,18047
+Perak,01/01/2018,2018,Both,Overall,33869,18600
+Perak,01/01/2019,2019,Both,Overall,33005,18740
+Perak,01/01/2020,2020,Both,Overall,31582,17946
+Perak,01/01/2021,2021,Both,Overall,30816,21303
+Perak,01/01/2022,2022,Both,Overall,29543,22341
+Perlis,01/01/2012,2012,Both,Overall,4143,1655
+Perlis,01/01/2013,2013,Both,Overall,4050,1741
+Perlis,01/01/2014,2014,Both,Overall,4509,1671
+Perlis,01/01/2015,2015,Both,Overall,4315,1767
+Perlis,01/01/2016,2016,Both,Overall,4392,1884
+Perlis,01/01/2017,2017,Both,Overall,4447,2004
+Perlis,01/01/2018,2018,Both,Overall,4371,2042
+Perlis,01/01/2019,2019,Both,Overall,4060,1996
+Perlis,01/01/2020,2020,Both,Overall,4101,1950
+Perlis,01/01/2021,2021,Both,Overall,4076,2234
+Perlis,01/01/2022,2022,Both,Overall,3746,2422
+Pulau Pinang,01/01/2012,2012,Both,Overall,23794,9133
+Pulau Pinang,01/01/2013,2013,Both,Overall,21499,9538
+Pulau Pinang,01/01/2014,2014,Both,Overall,22877,9678
+Pulau Pinang,01/01/2015,2015,Both,Overall,22242,10226
+Pulau Pinang,01/01/2016,2016,Both,Overall,21781,10729
+Pulau Pinang,01/01/2017,2017,Both,Overall,21464,10727
+Pulau Pinang,01/01/2018,2018,Both,Overall,20705,11209
+Pulau Pinang,01/01/2019,2019,Both,Overall,20200,10896
+Pulau Pinang,01/01/2020,2020,Both,Overall,19645,10701
+Pulau Pinang,01/01/2021,2021,Both,Overall,18571,13978
+Pulau Pinang,01/01/2022,2022,Both,Overall,17731,12920
+Sabah,01/01/2012,2012,Both,Overall,58185,8066
+Sabah,01/01/2013,2013,Both,Overall,56823,8253
+Sabah,01/01/2014,2014,Both,Overall,57397,12188
+Sabah,01/01/2015,2015,Both,Overall,54699,12511
+Sabah,01/01/2016,2016,Both,Overall,52071,12834
+Sabah,01/01/2017,2017,Both,Overall,52528,13719
+Sabah,01/01/2018,2018,Both,Overall,53025,13940
+Sabah,01/01/2019,2019,Both,Overall,52973,14713
+Sabah,01/01/2020,2020,Both,Overall,49587,14868
+Sabah,01/01/2021,2021,Both,Overall,41608,18873
+Sabah,01/01/2022,2022,Both,Overall,43617,17395
+Sarawak,01/01/2012,2012,Both,Overall,43178,11246
+Sarawak,01/01/2013,2013,Both,Overall,40413,11231
+Sarawak,01/01/2014,2014,Both,Overall,41049,11686
+Sarawak,01/01/2015,2015,Both,Overall,39754,12200
+Sarawak,01/01/2016,2016,Both,Overall,37985,12608
+Sarawak,01/01/2017,2017,Both,Overall,37654,13117
+Sarawak,01/01/2018,2018,Both,Overall,36624,13828
+Sarawak,01/01/2019,2019,Both,Overall,36672,14025
+Sarawak,01/01/2020,2020,Both,Overall,35449,14114
+Sarawak,01/01/2021,2021,Both,Overall,31274,17596
+Sarawak,01/01/2022,2022,Both,Overall,30937,16627
+Selangor,01/01/2012,2012,Both,Overall,107946,21020
+Selangor,01/01/2013,2013,Both,Overall,103173,21677
+Selangor,01/01/2014,2014,Both,Overall,108932,22647
+Selangor,01/01/2015,2015,Both,Overall,108131,23804
+Selangor,01/01/2016,2016,Both,Overall,104661,25588
+Selangor,01/01/2017,2017,Both,Overall,103987,26733
+Selangor,01/01/2018,2018,Both,Overall,102125,27387
+Selangor,01/01/2019,2019,Both,Overall,98836,27786
+Selangor,01/01/2020,2020,Both,Overall,93577,25405
+Selangor,01/01/2021,2021,Both,Overall,90118,42051
+Selangor,01/01/2022,2022,Both,Overall,83658,32861
+Terengganu,01/01/2012,2012,Both,Overall,25698,6177
+Terengganu,01/01/2013,2013,Both,Overall,25465,6424
+Terengganu,01/01/2014,2014,Both,Overall,27013,6460
+Terengganu,01/01/2015,2015,Both,Overall,27629,6715
+Terengganu,01/01/2016,2016,Both,Overall,27521,6843
+Terengganu,01/01/2017,2017,Both,Overall,27911,7048
+Terengganu,01/01/2018,2018,Both,Overall,28242,7099
+Terengganu,01/01/2019,2019,Both,Overall,27085,7341
+Terengganu,01/01/2020,2020,Both,Overall,27177,6736
+Terengganu,01/01/2021,2021,Both,Overall,26337,8469
+Terengganu,01/01/2022,2022,Both,Overall,25304,8686
+W.P. Kuala Lumpur,01/01/2012,2012,Both,Overall,26982,6996
+W.P. Kuala Lumpur,01/01/2013,2013,Both,Overall,25333,7183
+W.P. Kuala Lumpur,01/01/2014,2014,Both,Overall,27100,7647
+W.P. Kuala Lumpur,01/01/2015,2015,Both,Overall,25789,7608
+W.P. Kuala Lumpur,01/01/2016,2016,Both,Overall,25739,8077
+W.P. Kuala Lumpur,01/01/2017,2017,Both,Overall,24732,8205
+W.P. Kuala Lumpur,01/01/2018,2018,Both,Overall,24235,8485
+W.P. Kuala Lumpur,01/01/2019,2019,Both,Overall,23921,8845
+W.P. Kuala Lumpur,01/01/2020,2020,Both,Overall,23199,8334
+W.P. Kuala Lumpur,01/01/2021,2021,Both,Overall,21046,13334
+W.P. Kuala Lumpur,01/01/2022,2022,Both,Overall,19853,9962
+W.P. Labuan,01/01/2012,2012,Both,Overall,1773,242
+W.P. Labuan,01/01/2013,2013,Both,Overall,1743,245
+W.P. Labuan,01/01/2014,2014,Both,Overall,1871,274
+W.P. Labuan,01/01/2015,2015,Both,Overall,1953,246
+W.P. Labuan,01/01/2016,2016,Both,Overall,1752,277
+W.P. Labuan,01/01/2017,2017,Both,Overall,1685,247
+W.P. Labuan,01/01/2018,2018,Both,Overall,1691,287
+W.P. Labuan,01/01/2019,2019,Both,Overall,1678,298
+W.P. Labuan,01/01/2020,2020,Both,Overall,1714,319
+W.P. Labuan,01/01/2021,2021,Both,Overall,1522,517
+W.P. Labuan,01/01/2022,2022,Both,Overall,1374,392
+W.P. Putrajaya,01/01/2012,2012,Both,Overall,3150,142
+W.P. Putrajaya,01/01/2013,2013,Both,Overall,2972,164
+W.P. Putrajaya,01/01/2014,2014,Both,Overall,3064,194
+W.P. Putrajaya,01/01/2015,2015,Both,Overall,2869,193
+W.P. Putrajaya,01/01/2016,2016,Both,Overall,2569,163
+W.P. Putrajaya,01/01/2017,2017,Both,Overall,2517,229
+W.P. Putrajaya,01/01/2018,2018,Both,Overall,2400,218
+W.P. Putrajaya,01/01/2019,2019,Both,Overall,2316,209
+W.P. Putrajaya,01/01/2020,2020,Both,Overall,2143,211
+W.P. Putrajaya,01/01/2021,2021,Both,Overall,2106,266
+W.P. Putrajaya,01/01/2022,2022,Both,Overall,1839,253

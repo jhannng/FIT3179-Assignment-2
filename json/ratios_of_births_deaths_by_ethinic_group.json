@@ -1,11 +1,25 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 305,
-    "height": 370,
+    "width": 375,
+    "height": 390,
+    "params": [
+        {
+            "name": "YearFilter",
+            "value": 2022,
+            "bind": {
+                "input": "range",
+                "min": 2012,
+                "max": 2022,
+                "step": 1,
+                "name": "Year Selection: "
+            }
+        }
+    ],
     "data": {
-        "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/ratios_of_births_deaths_by_ethinic_group.csv"
+        "url": "../data/ratios_of_births_deaths_by_ethinic_group.csv"
     },
     "transform": [
+        { "filter": "datum.Year == YearFilter" },
         {
             "aggregate": [
                 {
@@ -14,7 +28,7 @@
                     "as": "TotalPeople"
                 }
             ],
-            "groupby": [ "Ethnicity", "Type" ]
+            "groupby": [ "Ethnicity", "Category", "Year" ]
         }
     ],
     "mark": "bar",
@@ -40,10 +54,11 @@
             "type": "nominal"
         },
         "column": {
-            "field": "Type",
+            "field": "Category",
             "type": "nominal"
         },
         "tooltip": [
+            { "field": "Year", "type": "quantitative", "title": "Year" },
             { "field": "TotalPeople", "type": "quantitative", "title": "Total Number of People", "format": ",.0f" }
         ]
     }

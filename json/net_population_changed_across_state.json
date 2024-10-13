@@ -1,10 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 700,
-    "height": 500,
+    "width": 900,
+    "height": 550,
     "params": [
         {
-            "name": "year_selected",
+            "name": "YearFilter",
             "value": 2022,
             "bind": {
                 "input": "range",
@@ -32,21 +32,6 @@
             }
         },
         {
-            "mark": {
-                "type": "geoshape",
-                "stroke": "gray",
-                "strokeWidth": 0.3
-            },
-            "data": {
-                "graticule": true
-            },
-            "projection": {
-                "type": "mercator",
-                "scale": 350,
-                "center": [ 110, 3.5 ]
-            }
-        },
-        {
             "data": {
                 "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/net_population_changed_across_state.csv"
             },
@@ -65,9 +50,7 @@
                     },
                     "as": "geo"
                 },
-                {
-                    "filter": "datum.Year == year_selected"
-                }
+                { "filter": "datum.Year == YearFilter" }
             ],
             "projection": {
                 "type": "mercator",

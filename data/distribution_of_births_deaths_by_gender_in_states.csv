@@ -1,65 +1,705 @@
-﻿State,Date,Sex,Ethnicity,NumberOfPeople,Type
-Johor,01/01/2022,Male,Overall,14618,Death
-Johor,01/01/2022,Female,Overall,10687,Death
-Kedah,01/01/2022,Male,Overall,9792,Death
-Kedah,01/01/2022,Female,Overall,7836,Death
-Kelantan,01/01/2022,Male,Overall,7411,Death
-Kelantan,01/01/2022,Female,Overall,6034,Death
-Melaka,01/01/2022,Male,Overall,3669,Death
-Melaka,01/01/2022,Female,Overall,2961,Death
-Negeri Sembilan,01/01/2022,Male,Overall,4959,Death
-Negeri Sembilan,01/01/2022,Female,Overall,3677,Death
-Pahang,01/01/2022,Male,Overall,6516,Death
-Pahang,01/01/2022,Female,Overall,4506,Death
-Perak,01/01/2022,Male,Overall,12641,Death
-Perak,01/01/2022,Female,Overall,9700,Death
-Perlis,01/01/2022,Male,Overall,1348,Death
-Perlis,01/01/2022,Female,Overall,1074,Death
-Pulau Pinang,01/01/2022,Male,Overall,7338,Death
-Pulau Pinang,01/01/2022,Female,Overall,5582,Death
-Sabah,01/01/2022,Male,Overall,10084,Death
-Sabah,01/01/2022,Female,Overall,7311,Death
-Sarawak,01/01/2022,Male,Overall,9566,Death
-Sarawak,01/01/2022,Female,Overall,7061,Death
-Selangor,01/01/2022,Male,Overall,19023,Death
-Selangor,01/01/2022,Female,Overall,13838,Death
-Terengganu,01/01/2022,Male,Overall,4762,Death
-Terengganu,01/01/2022,Female,Overall,3924,Death
-W.P. Kuala Lumpur,01/01/2022,Male,Overall,5706,Death
-W.P. Kuala Lumpur,01/01/2022,Female,Overall,4256,Death
-W.P. Labuan,01/01/2022,Male,Overall,218,Death
-W.P. Labuan,01/01/2022,Female,Overall,174,Death
-W.P. Putrajaya,01/01/2022,Male,Overall,139,Death
-W.P. Putrajaya,01/01/2022,Female,Overall,114,Death
-Johor,01/01/2022,Male,Overall,24765,Birth
-Johor,01/01/2022,Female,Overall,23489,Birth
-Kedah,01/01/2022,Male,Overall,15784,Birth
-Kedah,01/01/2022,Female,Overall,15012,Birth
-Kelantan,01/01/2022,Male,Overall,17464,Birth
-Kelantan,01/01/2022,Female,Overall,16344,Birth
-Melaka,01/01/2022,Male,Overall,6745,Birth
-Melaka,01/01/2022,Female,Overall,6360,Birth
-Negeri Sembilan,01/01/2022,Male,Overall,8406,Birth
-Negeri Sembilan,01/01/2022,Female,Overall,7585,Birth
-Pahang,01/01/2022,Male,Overall,12209,Birth
-Pahang,01/01/2022,Female,Overall,11359,Birth
-Perak,01/01/2022,Male,Overall,15202,Birth
-Perak,01/01/2022,Female,Overall,14341,Birth
-Perlis,01/01/2022,Male,Overall,1967,Birth
-Perlis,01/01/2022,Female,Overall,1779,Birth
-Pulau Pinang,01/01/2022,Male,Overall,9069,Birth
-Pulau Pinang,01/01/2022,Female,Overall,8662,Birth
-Sabah,01/01/2022,Male,Overall,22471,Birth
-Sabah,01/01/2022,Female,Overall,21146,Birth
-Sarawak,01/01/2022,Male,Overall,15949,Birth
-Sarawak,01/01/2022,Female,Overall,14988,Birth
-Selangor,01/01/2022,Male,Overall,43346,Birth
-Selangor,01/01/2022,Female,Overall,40312,Birth
-Terengganu,01/01/2022,Male,Overall,13077,Birth
-Terengganu,01/01/2022,Female,Overall,12227,Birth
-W.P. Kuala Lumpur,01/01/2022,Male,Overall,10234,Birth
-W.P. Kuala Lumpur,01/01/2022,Female,Overall,9619,Birth
-W.P. Labuan,01/01/2022,Male,Overall,704,Birth
-W.P. Labuan,01/01/2022,Female,Overall,670,Birth
-W.P. Putrajaya,01/01/2022,Male,Overall,953,Birth
-W.P. Putrajaya,01/01/2022,Female,Overall,886,Birth
+﻿State,Date,Year,Sex,Ethnicity,NumberOfPeople,Type
+Johor,01/01/2012,2012,Male,Overall,9989,Death
+Johor,01/01/2013,2013,Male,Overall,10361,Death
+Johor,01/01/2014,2014,Male,Overall,10517,Death
+Johor,01/01/2015,2015,Male,Overall,11045,Death
+Johor,01/01/2016,2016,Male,Overall,11674,Death
+Johor,01/01/2017,2017,Male,Overall,12076,Death
+Johor,01/01/2018,2018,Male,Overall,12384,Death
+Johor,01/01/2019,2019,Male,Overall,12760,Death
+Johor,01/01/2020,2020,Male,Overall,12194,Death
+Johor,01/01/2021,2021,Male,Overall,15549,Death
+Johor,01/01/2022,2022,Male,Overall,14618,Death
+Johor,01/01/2012,2012,Female,Overall,7212,Death
+Johor,01/01/2013,2013,Female,Overall,7335,Death
+Johor,01/01/2014,2014,Female,Overall,7387,Death
+Johor,01/01/2015,2015,Female,Overall,7808,Death
+Johor,01/01/2016,2016,Female,Overall,8250,Death
+Johor,01/01/2017,2017,Female,Overall,8586,Death
+Johor,01/01/2018,2018,Female,Overall,8733,Death
+Johor,01/01/2019,2019,Female,Overall,9039,Death
+Johor,01/01/2020,2020,Female,Overall,8452,Death
+Johor,01/01/2021,2021,Female,Overall,11402,Death
+Johor,01/01/2022,2022,Female,Overall,10687,Death
+Kedah,01/01/2012,2012,Male,Overall,7059,Death
+Kedah,01/01/2013,2013,Male,Overall,7096,Death
+Kedah,01/01/2014,2014,Male,Overall,7404,Death
+Kedah,01/01/2015,2015,Male,Overall,7733,Death
+Kedah,01/01/2016,2016,Male,Overall,7734,Death
+Kedah,01/01/2017,2017,Male,Overall,8049,Death
+Kedah,01/01/2018,2018,Male,Overall,8216,Death
+Kedah,01/01/2019,2019,Male,Overall,8031,Death
+Kedah,01/01/2020,2020,Male,Overall,7694,Death
+Kedah,01/01/2021,2021,Male,Overall,10068,Death
+Kedah,01/01/2022,2022,Male,Overall,9792,Death
+Kedah,01/01/2012,2012,Female,Overall,5209,Death
+Kedah,01/01/2013,2013,Female,Overall,5420,Death
+Kedah,01/01/2014,2014,Female,Overall,5613,Death
+Kedah,01/01/2015,2015,Female,Overall,5941,Death
+Kedah,01/01/2016,2016,Female,Overall,6037,Death
+Kedah,01/01/2017,2017,Female,Overall,6283,Death
+Kedah,01/01/2018,2018,Female,Overall,6336,Death
+Kedah,01/01/2019,2019,Female,Overall,6271,Death
+Kedah,01/01/2020,2020,Female,Overall,5977,Death
+Kedah,01/01/2021,2021,Female,Overall,8389,Death
+Kedah,01/01/2022,2022,Female,Overall,7836,Death
+Kelantan,01/01/2012,2012,Male,Overall,5589,Death
+Kelantan,01/01/2013,2013,Male,Overall,5635,Death
+Kelantan,01/01/2014,2014,Male,Overall,5958,Death
+Kelantan,01/01/2015,2015,Male,Overall,6087,Death
+Kelantan,01/01/2016,2016,Male,Overall,6111,Death
+Kelantan,01/01/2017,2017,Male,Overall,6284,Death
+Kelantan,01/01/2018,2018,Male,Overall,6332,Death
+Kelantan,01/01/2019,2019,Male,Overall,6446,Death
+Kelantan,01/01/2020,2020,Male,Overall,6236,Death
+Kelantan,01/01/2021,2021,Male,Overall,7605,Death
+Kelantan,01/01/2022,2022,Male,Overall,7411,Death
+Kelantan,01/01/2012,2012,Female,Overall,4301,Death
+Kelantan,01/01/2013,2013,Female,Overall,4407,Death
+Kelantan,01/01/2014,2014,Female,Overall,4630,Death
+Kelantan,01/01/2015,2015,Female,Overall,4702,Death
+Kelantan,01/01/2016,2016,Female,Overall,4698,Death
+Kelantan,01/01/2017,2017,Female,Overall,4919,Death
+Kelantan,01/01/2018,2018,Female,Overall,4984,Death
+Kelantan,01/01/2019,2019,Female,Overall,4964,Death
+Kelantan,01/01/2020,2020,Female,Overall,4692,Death
+Kelantan,01/01/2021,2021,Female,Overall,6321,Death
+Kelantan,01/01/2022,2022,Female,Overall,6034,Death
+Melaka,01/01/2012,2012,Male,Overall,2588,Death
+Melaka,01/01/2013,2013,Male,Overall,2669,Death
+Melaka,01/01/2014,2014,Male,Overall,2719,Death
+Melaka,01/01/2015,2015,Male,Overall,2778,Death
+Melaka,01/01/2016,2016,Male,Overall,2915,Death
+Melaka,01/01/2017,2017,Male,Overall,3092,Death
+Melaka,01/01/2018,2018,Male,Overall,3079,Death
+Melaka,01/01/2019,2019,Male,Overall,3088,Death
+Melaka,01/01/2020,2020,Male,Overall,3072,Death
+Melaka,01/01/2021,2021,Male,Overall,3921,Death
+Melaka,01/01/2022,2022,Male,Overall,3669,Death
+Melaka,01/01/2012,2012,Female,Overall,1987,Death
+Melaka,01/01/2013,2013,Female,Overall,2078,Death
+Melaka,01/01/2014,2014,Female,Overall,2009,Death
+Melaka,01/01/2015,2015,Female,Overall,2181,Death
+Melaka,01/01/2016,2016,Female,Overall,2271,Death
+Melaka,01/01/2017,2017,Female,Overall,2431,Death
+Melaka,01/01/2018,2018,Female,Overall,2328,Death
+Melaka,01/01/2019,2019,Female,Overall,2459,Death
+Melaka,01/01/2020,2020,Female,Overall,2372,Death
+Melaka,01/01/2021,2021,Female,Overall,3162,Death
+Melaka,01/01/2022,2022,Female,Overall,2961,Death
+Negeri Sembilan,01/01/2012,2012,Male,Overall,3376,Death
+Negeri Sembilan,01/01/2013,2013,Male,Overall,3629,Death
+Negeri Sembilan,01/01/2014,2014,Male,Overall,3681,Death
+Negeri Sembilan,01/01/2015,2015,Male,Overall,3823,Death
+Negeri Sembilan,01/01/2016,2016,Male,Overall,3964,Death
+Negeri Sembilan,01/01/2017,2017,Male,Overall,4100,Death
+Negeri Sembilan,01/01/2018,2018,Male,Overall,4285,Death
+Negeri Sembilan,01/01/2019,2019,Male,Overall,4106,Death
+Negeri Sembilan,01/01/2020,2020,Male,Overall,4051,Death
+Negeri Sembilan,01/01/2021,2021,Male,Overall,5206,Death
+Negeri Sembilan,01/01/2022,2022,Male,Overall,4959,Death
+Negeri Sembilan,01/01/2012,2012,Female,Overall,2519,Death
+Negeri Sembilan,01/01/2013,2013,Female,Overall,2584,Death
+Negeri Sembilan,01/01/2014,2014,Female,Overall,2729,Death
+Negeri Sembilan,01/01/2015,2015,Female,Overall,2788,Death
+Negeri Sembilan,01/01/2016,2016,Female,Overall,2846,Death
+Negeri Sembilan,01/01/2017,2017,Female,Overall,3011,Death
+Negeri Sembilan,01/01/2018,2018,Female,Overall,3013,Death
+Negeri Sembilan,01/01/2019,2019,Female,Overall,3062,Death
+Negeri Sembilan,01/01/2020,2020,Female,Overall,2960,Death
+Negeri Sembilan,01/01/2021,2021,Female,Overall,3959,Death
+Negeri Sembilan,01/01/2022,2022,Female,Overall,3677,Death
+Pahang,01/01/2012,2012,Male,Overall,4713,Death
+Pahang,01/01/2013,2013,Male,Overall,4962,Death
+Pahang,01/01/2014,2014,Male,Overall,5092,Death
+Pahang,01/01/2015,2015,Male,Overall,5044,Death
+Pahang,01/01/2016,2016,Male,Overall,5347,Death
+Pahang,01/01/2017,2017,Male,Overall,5498,Death
+Pahang,01/01/2018,2018,Male,Overall,5525,Death
+Pahang,01/01/2019,2019,Male,Overall,5392,Death
+Pahang,01/01/2020,2020,Male,Overall,5175,Death
+Pahang,01/01/2021,2021,Male,Overall,6109,Death
+Pahang,01/01/2022,2022,Male,Overall,6516,Death
+Pahang,01/01/2012,2012,Female,Overall,3078,Death
+Pahang,01/01/2013,2013,Female,Overall,3184,Death
+Pahang,01/01/2014,2014,Female,Overall,3209,Death
+Pahang,01/01/2015,2015,Female,Overall,3427,Death
+Pahang,01/01/2016,2016,Female,Overall,3531,Death
+Pahang,01/01/2017,2017,Female,Overall,3763,Death
+Pahang,01/01/2018,2018,Female,Overall,3721,Death
+Pahang,01/01/2019,2019,Female,Overall,3787,Death
+Pahang,01/01/2020,2020,Female,Overall,3511,Death
+Pahang,01/01/2021,2021,Female,Overall,4257,Death
+Pahang,01/01/2022,2022,Female,Overall,4506,Death
+Perak,01/01/2012,2012,Male,Overall,9315,Death
+Perak,01/01/2013,2013,Male,Overall,9294,Death
+Perak,01/01/2014,2014,Male,Overall,9461,Death
+Perak,01/01/2015,2015,Male,Overall,9759,Death
+Perak,01/01/2016,2016,Male,Overall,10113,Death
+Perak,01/01/2017,2017,Male,Overall,10420,Death
+Perak,01/01/2018,2018,Male,Overall,10582,Death
+Perak,01/01/2019,2019,Male,Overall,10571,Death
+Perak,01/01/2020,2020,Male,Overall,10173,Death
+Perak,01/01/2021,2021,Male,Overall,12022,Death
+Perak,01/01/2022,2022,Male,Overall,12641,Death
+Perak,01/01/2012,2012,Female,Overall,7080,Death
+Perak,01/01/2013,2013,Female,Overall,7092,Death
+Perak,01/01/2014,2014,Female,Overall,7464,Death
+Perak,01/01/2015,2015,Female,Overall,7400,Death
+Perak,01/01/2016,2016,Female,Overall,7707,Death
+Perak,01/01/2017,2017,Female,Overall,7627,Death
+Perak,01/01/2018,2018,Female,Overall,8018,Death
+Perak,01/01/2019,2019,Female,Overall,8169,Death
+Perak,01/01/2020,2020,Female,Overall,7773,Death
+Perak,01/01/2021,2021,Female,Overall,9281,Death
+Perak,01/01/2022,2022,Female,Overall,9700,Death
+Perlis,01/01/2012,2012,Male,Overall,877,Death
+Perlis,01/01/2013,2013,Male,Overall,948,Death
+Perlis,01/01/2014,2014,Male,Overall,912,Death
+Perlis,01/01/2015,2015,Male,Overall,958,Death
+Perlis,01/01/2016,2016,Male,Overall,1023,Death
+Perlis,01/01/2017,2017,Male,Overall,1100,Death
+Perlis,01/01/2018,2018,Male,Overall,1138,Death
+Perlis,01/01/2019,2019,Male,Overall,1125,Death
+Perlis,01/01/2020,2020,Male,Overall,1073,Death
+Perlis,01/01/2021,2021,Male,Overall,1244,Death
+Perlis,01/01/2022,2022,Male,Overall,1348,Death
+Perlis,01/01/2012,2012,Female,Overall,778,Death
+Perlis,01/01/2013,2013,Female,Overall,793,Death
+Perlis,01/01/2014,2014,Female,Overall,759,Death
+Perlis,01/01/2015,2015,Female,Overall,809,Death
+Perlis,01/01/2016,2016,Female,Overall,861,Death
+Perlis,01/01/2017,2017,Female,Overall,904,Death
+Perlis,01/01/2018,2018,Female,Overall,904,Death
+Perlis,01/01/2019,2019,Female,Overall,871,Death
+Perlis,01/01/2020,2020,Female,Overall,877,Death
+Perlis,01/01/2021,2021,Female,Overall,990,Death
+Perlis,01/01/2022,2022,Female,Overall,1074,Death
+Pulau Pinang,01/01/2012,2012,Male,Overall,5078,Death
+Pulau Pinang,01/01/2013,2013,Male,Overall,5379,Death
+Pulau Pinang,01/01/2014,2014,Male,Overall,5472,Death
+Pulau Pinang,01/01/2015,2015,Male,Overall,5783,Death
+Pulau Pinang,01/01/2016,2016,Male,Overall,6163,Death
+Pulau Pinang,01/01/2017,2017,Male,Overall,5984,Death
+Pulau Pinang,01/01/2018,2018,Male,Overall,6271,Death
+Pulau Pinang,01/01/2019,2019,Male,Overall,6109,Death
+Pulau Pinang,01/01/2020,2020,Male,Overall,6035,Death
+Pulau Pinang,01/01/2021,2021,Male,Overall,7781,Death
+Pulau Pinang,01/01/2022,2022,Male,Overall,7338,Death
+Pulau Pinang,01/01/2012,2012,Female,Overall,4055,Death
+Pulau Pinang,01/01/2013,2013,Female,Overall,4159,Death
+Pulau Pinang,01/01/2014,2014,Female,Overall,4206,Death
+Pulau Pinang,01/01/2015,2015,Female,Overall,4443,Death
+Pulau Pinang,01/01/2016,2016,Female,Overall,4566,Death
+Pulau Pinang,01/01/2017,2017,Female,Overall,4743,Death
+Pulau Pinang,01/01/2018,2018,Female,Overall,4938,Death
+Pulau Pinang,01/01/2019,2019,Female,Overall,4787,Death
+Pulau Pinang,01/01/2020,2020,Female,Overall,4666,Death
+Pulau Pinang,01/01/2021,2021,Female,Overall,6197,Death
+Pulau Pinang,01/01/2022,2022,Female,Overall,5582,Death
+Sabah,01/01/2012,2012,Male,Overall,4779,Death
+Sabah,01/01/2013,2013,Male,Overall,4836,Death
+Sabah,01/01/2014,2014,Male,Overall,7175,Death
+Sabah,01/01/2015,2015,Male,Overall,7365,Death
+Sabah,01/01/2016,2016,Male,Overall,7555,Death
+Sabah,01/01/2017,2017,Male,Overall,7929,Death
+Sabah,01/01/2018,2018,Male,Overall,8170,Death
+Sabah,01/01/2019,2019,Male,Overall,8560,Death
+Sabah,01/01/2020,2020,Male,Overall,8818,Death
+Sabah,01/01/2021,2021,Male,Overall,10791,Death
+Sabah,01/01/2022,2022,Male,Overall,10084,Death
+Sabah,01/01/2012,2012,Female,Overall,3287,Death
+Sabah,01/01/2013,2013,Female,Overall,3417,Death
+Sabah,01/01/2014,2014,Female,Overall,5013,Death
+Sabah,01/01/2015,2015,Female,Overall,5146,Death
+Sabah,01/01/2016,2016,Female,Overall,5279,Death
+Sabah,01/01/2017,2017,Female,Overall,5790,Death
+Sabah,01/01/2018,2018,Female,Overall,5770,Death
+Sabah,01/01/2019,2019,Female,Overall,6153,Death
+Sabah,01/01/2020,2020,Female,Overall,6050,Death
+Sabah,01/01/2021,2021,Female,Overall,8082,Death
+Sabah,01/01/2022,2022,Female,Overall,7311,Death
+Sarawak,01/01/2012,2012,Male,Overall,6419,Death
+Sarawak,01/01/2013,2013,Male,Overall,6427,Death
+Sarawak,01/01/2014,2014,Male,Overall,6698,Death
+Sarawak,01/01/2015,2015,Male,Overall,6902,Death
+Sarawak,01/01/2016,2016,Male,Overall,7218,Death
+Sarawak,01/01/2017,2017,Male,Overall,7564,Death
+Sarawak,01/01/2018,2018,Male,Overall,7862,Death
+Sarawak,01/01/2019,2019,Male,Overall,7908,Death
+Sarawak,01/01/2020,2020,Male,Overall,8227,Death
+Sarawak,01/01/2021,2021,Male,Overall,10209,Death
+Sarawak,01/01/2022,2022,Male,Overall,9566,Death
+Sarawak,01/01/2012,2012,Female,Overall,4827,Death
+Sarawak,01/01/2013,2013,Female,Overall,4804,Death
+Sarawak,01/01/2014,2014,Female,Overall,4988,Death
+Sarawak,01/01/2015,2015,Female,Overall,5298,Death
+Sarawak,01/01/2016,2016,Female,Overall,5390,Death
+Sarawak,01/01/2017,2017,Female,Overall,5553,Death
+Sarawak,01/01/2018,2018,Female,Overall,5966,Death
+Sarawak,01/01/2019,2019,Female,Overall,6117,Death
+Sarawak,01/01/2020,2020,Female,Overall,5887,Death
+Sarawak,01/01/2021,2021,Female,Overall,7387,Death
+Sarawak,01/01/2022,2022,Female,Overall,7061,Death
+Selangor,01/01/2012,2012,Male,Overall,12186,Death
+Selangor,01/01/2013,2013,Male,Overall,12611,Death
+Selangor,01/01/2014,2014,Male,Overall,13072,Death
+Selangor,01/01/2015,2015,Male,Overall,13689,Death
+Selangor,01/01/2016,2016,Male,Overall,14948,Death
+Selangor,01/01/2017,2017,Male,Overall,15417,Death
+Selangor,01/01/2018,2018,Male,Overall,15829,Death
+Selangor,01/01/2019,2019,Male,Overall,16193,Death
+Selangor,01/01/2020,2020,Male,Overall,14856,Death
+Selangor,01/01/2021,2021,Male,Overall,24531,Death
+Selangor,01/01/2022,2022,Male,Overall,19023,Death
+Selangor,01/01/2012,2012,Female,Overall,8834,Death
+Selangor,01/01/2013,2013,Female,Overall,9066,Death
+Selangor,01/01/2014,2014,Female,Overall,9575,Death
+Selangor,01/01/2015,2015,Female,Overall,10115,Death
+Selangor,01/01/2016,2016,Female,Overall,10640,Death
+Selangor,01/01/2017,2017,Female,Overall,11316,Death
+Selangor,01/01/2018,2018,Female,Overall,11558,Death
+Selangor,01/01/2019,2019,Female,Overall,11593,Death
+Selangor,01/01/2020,2020,Female,Overall,10549,Death
+Selangor,01/01/2021,2021,Female,Overall,17520,Death
+Selangor,01/01/2022,2022,Female,Overall,13838,Death
+Terengganu,01/01/2012,2012,Male,Overall,3592,Death
+Terengganu,01/01/2013,2013,Male,Overall,3739,Death
+Terengganu,01/01/2014,2014,Male,Overall,3598,Death
+Terengganu,01/01/2015,2015,Male,Overall,3850,Death
+Terengganu,01/01/2016,2016,Male,Overall,3945,Death
+Terengganu,01/01/2017,2017,Male,Overall,4030,Death
+Terengganu,01/01/2018,2018,Male,Overall,4052,Death
+Terengganu,01/01/2019,2019,Male,Overall,4207,Death
+Terengganu,01/01/2020,2020,Male,Overall,3881,Death
+Terengganu,01/01/2021,2021,Male,Overall,4645,Death
+Terengganu,01/01/2022,2022,Male,Overall,4762,Death
+Terengganu,01/01/2012,2012,Female,Overall,2585,Death
+Terengganu,01/01/2013,2013,Female,Overall,2685,Death
+Terengganu,01/01/2014,2014,Female,Overall,2862,Death
+Terengganu,01/01/2015,2015,Female,Overall,2865,Death
+Terengganu,01/01/2016,2016,Female,Overall,2898,Death
+Terengganu,01/01/2017,2017,Female,Overall,3018,Death
+Terengganu,01/01/2018,2018,Female,Overall,3047,Death
+Terengganu,01/01/2019,2019,Female,Overall,3134,Death
+Terengganu,01/01/2020,2020,Female,Overall,2855,Death
+Terengganu,01/01/2021,2021,Female,Overall,3824,Death
+Terengganu,01/01/2022,2022,Female,Overall,3924,Death
+W.P. Kuala Lumpur,01/01/2012,2012,Male,Overall,4092,Death
+W.P. Kuala Lumpur,01/01/2013,2013,Male,Overall,4117,Death
+W.P. Kuala Lumpur,01/01/2014,2014,Male,Overall,4508,Death
+W.P. Kuala Lumpur,01/01/2015,2015,Male,Overall,4395,Death
+W.P. Kuala Lumpur,01/01/2016,2016,Male,Overall,4733,Death
+W.P. Kuala Lumpur,01/01/2017,2017,Male,Overall,4724,Death
+W.P. Kuala Lumpur,01/01/2018,2018,Male,Overall,4929,Death
+W.P. Kuala Lumpur,01/01/2019,2019,Male,Overall,5183,Death
+W.P. Kuala Lumpur,01/01/2020,2020,Male,Overall,4812,Death
+W.P. Kuala Lumpur,01/01/2021,2021,Male,Overall,7689,Death
+W.P. Kuala Lumpur,01/01/2022,2022,Male,Overall,5706,Death
+W.P. Kuala Lumpur,01/01/2012,2012,Female,Overall,2904,Death
+W.P. Kuala Lumpur,01/01/2013,2013,Female,Overall,3066,Death
+W.P. Kuala Lumpur,01/01/2014,2014,Female,Overall,3139,Death
+W.P. Kuala Lumpur,01/01/2015,2015,Female,Overall,3213,Death
+W.P. Kuala Lumpur,01/01/2016,2016,Female,Overall,3344,Death
+W.P. Kuala Lumpur,01/01/2017,2017,Female,Overall,3481,Death
+W.P. Kuala Lumpur,01/01/2018,2018,Female,Overall,3556,Death
+W.P. Kuala Lumpur,01/01/2019,2019,Female,Overall,3662,Death
+W.P. Kuala Lumpur,01/01/2020,2020,Female,Overall,3522,Death
+W.P. Kuala Lumpur,01/01/2021,2021,Female,Overall,5645,Death
+W.P. Kuala Lumpur,01/01/2022,2022,Female,Overall,4256,Death
+W.P. Labuan,01/01/2012,2012,Male,Overall,144,Death
+W.P. Labuan,01/01/2013,2013,Male,Overall,145,Death
+W.P. Labuan,01/01/2014,2014,Male,Overall,165,Death
+W.P. Labuan,01/01/2015,2015,Male,Overall,143,Death
+W.P. Labuan,01/01/2016,2016,Male,Overall,169,Death
+W.P. Labuan,01/01/2017,2017,Male,Overall,132,Death
+W.P. Labuan,01/01/2018,2018,Male,Overall,175,Death
+W.P. Labuan,01/01/2019,2019,Male,Overall,182,Death
+W.P. Labuan,01/01/2020,2020,Male,Overall,183,Death
+W.P. Labuan,01/01/2021,2021,Male,Overall,300,Death
+W.P. Labuan,01/01/2022,2022,Male,Overall,218,Death
+W.P. Labuan,01/01/2012,2012,Female,Overall,98,Death
+W.P. Labuan,01/01/2013,2013,Female,Overall,100,Death
+W.P. Labuan,01/01/2014,2014,Female,Overall,109,Death
+W.P. Labuan,01/01/2015,2015,Female,Overall,103,Death
+W.P. Labuan,01/01/2016,2016,Female,Overall,108,Death
+W.P. Labuan,01/01/2017,2017,Female,Overall,115,Death
+W.P. Labuan,01/01/2018,2018,Female,Overall,112,Death
+W.P. Labuan,01/01/2019,2019,Female,Overall,116,Death
+W.P. Labuan,01/01/2020,2020,Female,Overall,136,Death
+W.P. Labuan,01/01/2021,2021,Female,Overall,217,Death
+W.P. Labuan,01/01/2022,2022,Female,Overall,174,Death
+W.P. Putrajaya,01/01/2012,2012,Male,Overall,69,Death
+W.P. Putrajaya,01/01/2013,2013,Male,Overall,93,Death
+W.P. Putrajaya,01/01/2014,2014,Male,Overall,100,Death
+W.P. Putrajaya,01/01/2015,2015,Male,Overall,95,Death
+W.P. Putrajaya,01/01/2016,2016,Male,Overall,86,Death
+W.P. Putrajaya,01/01/2017,2017,Male,Overall,123,Death
+W.P. Putrajaya,01/01/2018,2018,Male,Overall,120,Death
+W.P. Putrajaya,01/01/2019,2019,Male,Overall,114,Death
+W.P. Putrajaya,01/01/2020,2020,Male,Overall,118,Death
+W.P. Putrajaya,01/01/2021,2021,Male,Overall,154,Death
+W.P. Putrajaya,01/01/2022,2022,Male,Overall,139,Death
+W.P. Putrajaya,01/01/2012,2012,Female,Overall,73,Death
+W.P. Putrajaya,01/01/2013,2013,Female,Overall,71,Death
+W.P. Putrajaya,01/01/2014,2014,Female,Overall,94,Death
+W.P. Putrajaya,01/01/2015,2015,Female,Overall,98,Death
+W.P. Putrajaya,01/01/2016,2016,Female,Overall,77,Death
+W.P. Putrajaya,01/01/2017,2017,Female,Overall,106,Death
+W.P. Putrajaya,01/01/2018,2018,Female,Overall,98,Death
+W.P. Putrajaya,01/01/2019,2019,Female,Overall,95,Death
+W.P. Putrajaya,01/01/2020,2020,Female,Overall,93,Death
+W.P. Putrajaya,01/01/2021,2021,Female,Overall,112,Death
+W.P. Putrajaya,01/01/2022,2022,Female,Overall,114,Death
+Johor,01/01/2012,2012,Male,Overall,31214,Birth
+Johor,01/01/2013,2013,Male,Overall,29672,Birth
+Johor,01/01/2014,2014,Male,Overall,31420,Birth
+Johor,01/01/2015,2015,Male,Overall,31307,Birth
+Johor,01/01/2016,2016,Male,Overall,30754,Birth
+Johor,01/01/2017,2017,Male,Overall,31648,Birth
+Johor,01/01/2018,2018,Male,Overall,31656,Birth
+Johor,01/01/2019,2019,Male,Overall,31073,Birth
+Johor,01/01/2020,2020,Male,Overall,29379,Birth
+Johor,01/01/2021,2021,Male,Overall,25708,Birth
+Johor,01/01/2022,2022,Male,Overall,24765,Birth
+Johor,01/01/2012,2012,Female,Overall,29230,Birth
+Johor,01/01/2013,2013,Female,Overall,27730,Birth
+Johor,01/01/2014,2014,Female,Overall,29023,Birth
+Johor,01/01/2015,2015,Female,Overall,29236,Birth
+Johor,01/01/2016,2016,Female,Overall,28807,Birth
+Johor,01/01/2017,2017,Female,Overall,29437,Birth
+Johor,01/01/2018,2018,Female,Overall,29428,Birth
+Johor,01/01/2019,2019,Female,Overall,29188,Birth
+Johor,01/01/2020,2020,Female,Overall,27529,Birth
+Johor,01/01/2021,2021,Female,Overall,24282,Birth
+Johor,01/01/2022,2022,Female,Overall,23489,Birth
+Kedah,01/01/2012,2012,Male,Overall,18937,Birth
+Kedah,01/01/2013,2013,Male,Overall,18049,Birth
+Kedah,01/01/2014,2014,Male,Overall,18936,Birth
+Kedah,01/01/2015,2015,Male,Overall,18832,Birth
+Kedah,01/01/2016,2016,Male,Overall,18457,Birth
+Kedah,01/01/2017,2017,Male,Overall,18991,Birth
+Kedah,01/01/2018,2018,Male,Overall,18462,Birth
+Kedah,01/01/2019,2019,Male,Overall,17828,Birth
+Kedah,01/01/2020,2020,Male,Overall,17516,Birth
+Kedah,01/01/2021,2021,Male,Overall,17032,Birth
+Kedah,01/01/2022,2022,Male,Overall,15784,Birth
+Kedah,01/01/2012,2012,Female,Overall,17453,Birth
+Kedah,01/01/2013,2013,Female,Overall,16983,Birth
+Kedah,01/01/2014,2014,Female,Overall,17569,Birth
+Kedah,01/01/2015,2015,Female,Overall,17952,Birth
+Kedah,01/01/2016,2016,Female,Overall,17510,Birth
+Kedah,01/01/2017,2017,Female,Overall,17702,Birth
+Kedah,01/01/2018,2018,Female,Overall,17181,Birth
+Kedah,01/01/2019,2019,Female,Overall,16683,Birth
+Kedah,01/01/2020,2020,Female,Overall,16312,Birth
+Kedah,01/01/2021,2021,Female,Overall,16008,Birth
+Kedah,01/01/2022,2022,Female,Overall,15012,Birth
+Kelantan,01/01/2012,2012,Male,Overall,19328,Birth
+Kelantan,01/01/2013,2013,Male,Overall,18853,Birth
+Kelantan,01/01/2014,2014,Male,Overall,20227,Birth
+Kelantan,01/01/2015,2015,Male,Overall,19984,Birth
+Kelantan,01/01/2016,2016,Male,Overall,19821,Birth
+Kelantan,01/01/2017,2017,Male,Overall,20084,Birth
+Kelantan,01/01/2018,2018,Male,Overall,19984,Birth
+Kelantan,01/01/2019,2019,Male,Overall,19124,Birth
+Kelantan,01/01/2020,2020,Male,Overall,18739,Birth
+Kelantan,01/01/2021,2021,Male,Overall,17868,Birth
+Kelantan,01/01/2022,2022,Male,Overall,17464,Birth
+Kelantan,01/01/2012,2012,Female,Overall,17697,Birth
+Kelantan,01/01/2013,2013,Female,Overall,17560,Birth
+Kelantan,01/01/2014,2014,Female,Overall,19052,Birth
+Kelantan,01/01/2015,2015,Female,Overall,19124,Birth
+Kelantan,01/01/2016,2016,Female,Overall,18634,Birth
+Kelantan,01/01/2017,2017,Female,Overall,19038,Birth
+Kelantan,01/01/2018,2018,Female,Overall,18376,Birth
+Kelantan,01/01/2019,2019,Female,Overall,17734,Birth
+Kelantan,01/01/2020,2020,Female,Overall,17536,Birth
+Kelantan,01/01/2021,2021,Female,Overall,16896,Birth
+Kelantan,01/01/2022,2022,Female,Overall,16344,Birth
+Melaka,01/01/2012,2012,Male,Overall,7233,Birth
+Melaka,01/01/2013,2013,Male,Overall,7102,Birth
+Melaka,01/01/2014,2014,Male,Overall,7592,Birth
+Melaka,01/01/2015,2015,Male,Overall,7460,Birth
+Melaka,01/01/2016,2016,Male,Overall,7511,Birth
+Melaka,01/01/2017,2017,Male,Overall,7454,Birth
+Melaka,01/01/2018,2018,Male,Overall,7379,Birth
+Melaka,01/01/2019,2019,Male,Overall,7408,Birth
+Melaka,01/01/2020,2020,Male,Overall,7139,Birth
+Melaka,01/01/2021,2021,Male,Overall,6812,Birth
+Melaka,01/01/2022,2022,Male,Overall,6745,Birth
+Melaka,01/01/2012,2012,Female,Overall,7045,Birth
+Melaka,01/01/2013,2013,Female,Overall,6590,Birth
+Melaka,01/01/2014,2014,Female,Overall,6976,Birth
+Melaka,01/01/2015,2015,Female,Overall,7094,Birth
+Melaka,01/01/2016,2016,Female,Overall,6891,Birth
+Melaka,01/01/2017,2017,Female,Overall,6935,Birth
+Melaka,01/01/2018,2018,Female,Overall,7009,Birth
+Melaka,01/01/2019,2019,Female,Overall,6728,Birth
+Melaka,01/01/2020,2020,Female,Overall,6716,Birth
+Melaka,01/01/2021,2021,Female,Overall,6380,Birth
+Melaka,01/01/2022,2022,Female,Overall,6360,Birth
+Negeri Sembilan,01/01/2012,2012,Male,Overall,9219,Birth
+Negeri Sembilan,01/01/2013,2013,Male,Overall,9126,Birth
+Negeri Sembilan,01/01/2014,2014,Male,Overall,9665,Birth
+Negeri Sembilan,01/01/2015,2015,Male,Overall,9605,Birth
+Negeri Sembilan,01/01/2016,2016,Male,Overall,9345,Birth
+Negeri Sembilan,01/01/2017,2017,Male,Overall,9390,Birth
+Negeri Sembilan,01/01/2018,2018,Male,Overall,9328,Birth
+Negeri Sembilan,01/01/2019,2019,Male,Overall,9061,Birth
+Negeri Sembilan,01/01/2020,2020,Male,Overall,8880,Birth
+Negeri Sembilan,01/01/2021,2021,Male,Overall,8723,Birth
+Negeri Sembilan,01/01/2022,2022,Male,Overall,8406,Birth
+Negeri Sembilan,01/01/2012,2012,Female,Overall,8684,Birth
+Negeri Sembilan,01/01/2013,2013,Female,Overall,8383,Birth
+Negeri Sembilan,01/01/2014,2014,Female,Overall,9011,Birth
+Negeri Sembilan,01/01/2015,2015,Female,Overall,8818,Birth
+Negeri Sembilan,01/01/2016,2016,Female,Overall,8691,Birth
+Negeri Sembilan,01/01/2017,2017,Female,Overall,8688,Birth
+Negeri Sembilan,01/01/2018,2018,Female,Overall,8849,Birth
+Negeri Sembilan,01/01/2019,2019,Female,Overall,8403,Birth
+Negeri Sembilan,01/01/2020,2020,Female,Overall,8240,Birth
+Negeri Sembilan,01/01/2021,2021,Female,Overall,8054,Birth
+Negeri Sembilan,01/01/2022,2022,Female,Overall,7585,Birth
+Pahang,01/01/2012,2012,Male,Overall,13955,Birth
+Pahang,01/01/2013,2013,Male,Overall,13996,Birth
+Pahang,01/01/2014,2014,Male,Overall,14887,Birth
+Pahang,01/01/2015,2015,Male,Overall,14370,Birth
+Pahang,01/01/2016,2016,Male,Overall,14379,Birth
+Pahang,01/01/2017,2017,Male,Overall,14111,Birth
+Pahang,01/01/2018,2018,Male,Overall,13930,Birth
+Pahang,01/01/2019,2019,Male,Overall,13254,Birth
+Pahang,01/01/2020,2020,Male,Overall,13032,Birth
+Pahang,01/01/2021,2021,Male,Overall,12624,Birth
+Pahang,01/01/2022,2022,Male,Overall,12209,Birth
+Pahang,01/01/2012,2012,Female,Overall,13456,Birth
+Pahang,01/01/2013,2013,Female,Overall,12972,Birth
+Pahang,01/01/2014,2014,Female,Overall,13856,Birth
+Pahang,01/01/2015,2015,Female,Overall,13689,Birth
+Pahang,01/01/2016,2016,Female,Overall,13247,Birth
+Pahang,01/01/2017,2017,Female,Overall,13444,Birth
+Pahang,01/01/2018,2018,Female,Overall,13076,Birth
+Pahang,01/01/2019,2019,Female,Overall,12633,Birth
+Pahang,01/01/2020,2020,Female,Overall,12312,Birth
+Pahang,01/01/2021,2021,Female,Overall,11883,Birth
+Pahang,01/01/2022,2022,Female,Overall,11359,Birth
+Perak,01/01/2012,2012,Male,Overall,19402,Birth
+Perak,01/01/2013,2013,Male,Overall,18294,Birth
+Perak,01/01/2014,2014,Male,Overall,18833,Birth
+Perak,01/01/2015,2015,Male,Overall,18855,Birth
+Perak,01/01/2016,2016,Male,Overall,18559,Birth
+Perak,01/01/2017,2017,Male,Overall,17953,Birth
+Perak,01/01/2018,2018,Male,Overall,17455,Birth
+Perak,01/01/2019,2019,Male,Overall,17069,Birth
+Perak,01/01/2020,2020,Male,Overall,16472,Birth
+Perak,01/01/2021,2021,Male,Overall,15758,Birth
+Perak,01/01/2022,2022,Male,Overall,15202,Birth
+Perak,01/01/2012,2012,Female,Overall,18310,Birth
+Perak,01/01/2013,2013,Female,Overall,17133,Birth
+Perak,01/01/2014,2014,Female,Overall,17753,Birth
+Perak,01/01/2015,2015,Female,Overall,17429,Birth
+Perak,01/01/2016,2016,Female,Overall,17126,Birth
+Perak,01/01/2017,2017,Female,Overall,16885,Birth
+Perak,01/01/2018,2018,Female,Overall,16414,Birth
+Perak,01/01/2019,2019,Female,Overall,15936,Birth
+Perak,01/01/2020,2020,Female,Overall,15110,Birth
+Perak,01/01/2021,2021,Female,Overall,15058,Birth
+Perak,01/01/2022,2022,Female,Overall,14341,Birth
+Perlis,01/01/2012,2012,Male,Overall,2130,Birth
+Perlis,01/01/2013,2013,Male,Overall,2108,Birth
+Perlis,01/01/2014,2014,Male,Overall,2318,Birth
+Perlis,01/01/2015,2015,Male,Overall,2239,Birth
+Perlis,01/01/2016,2016,Male,Overall,2297,Birth
+Perlis,01/01/2017,2017,Male,Overall,2347,Birth
+Perlis,01/01/2018,2018,Male,Overall,2249,Birth
+Perlis,01/01/2019,2019,Male,Overall,2155,Birth
+Perlis,01/01/2020,2020,Male,Overall,2104,Birth
+Perlis,01/01/2021,2021,Male,Overall,2148,Birth
+Perlis,01/01/2022,2022,Male,Overall,1967,Birth
+Perlis,01/01/2012,2012,Female,Overall,2013,Birth
+Perlis,01/01/2013,2013,Female,Overall,1942,Birth
+Perlis,01/01/2014,2014,Female,Overall,2191,Birth
+Perlis,01/01/2015,2015,Female,Overall,2076,Birth
+Perlis,01/01/2016,2016,Female,Overall,2095,Birth
+Perlis,01/01/2017,2017,Female,Overall,2100,Birth
+Perlis,01/01/2018,2018,Female,Overall,2122,Birth
+Perlis,01/01/2019,2019,Female,Overall,1905,Birth
+Perlis,01/01/2020,2020,Female,Overall,1997,Birth
+Perlis,01/01/2021,2021,Female,Overall,1928,Birth
+Perlis,01/01/2022,2022,Female,Overall,1779,Birth
+Pulau Pinang,01/01/2012,2012,Male,Overall,12138,Birth
+Pulau Pinang,01/01/2013,2013,Male,Overall,11020,Birth
+Pulau Pinang,01/01/2014,2014,Male,Overall,11799,Birth
+Pulau Pinang,01/01/2015,2015,Male,Overall,11529,Birth
+Pulau Pinang,01/01/2016,2016,Male,Overall,11176,Birth
+Pulau Pinang,01/01/2017,2017,Male,Overall,11048,Birth
+Pulau Pinang,01/01/2018,2018,Male,Overall,10661,Birth
+Pulau Pinang,01/01/2019,2019,Male,Overall,10471,Birth
+Pulau Pinang,01/01/2020,2020,Male,Overall,10188,Birth
+Pulau Pinang,01/01/2021,2021,Male,Overall,9510,Birth
+Pulau Pinang,01/01/2022,2022,Male,Overall,9069,Birth
+Pulau Pinang,01/01/2012,2012,Female,Overall,11656,Birth
+Pulau Pinang,01/01/2013,2013,Female,Overall,10479,Birth
+Pulau Pinang,01/01/2014,2014,Female,Overall,11078,Birth
+Pulau Pinang,01/01/2015,2015,Female,Overall,10713,Birth
+Pulau Pinang,01/01/2016,2016,Female,Overall,10605,Birth
+Pulau Pinang,01/01/2017,2017,Female,Overall,10416,Birth
+Pulau Pinang,01/01/2018,2018,Female,Overall,10044,Birth
+Pulau Pinang,01/01/2019,2019,Female,Overall,9729,Birth
+Pulau Pinang,01/01/2020,2020,Female,Overall,9457,Birth
+Pulau Pinang,01/01/2021,2021,Female,Overall,9061,Birth
+Pulau Pinang,01/01/2022,2022,Female,Overall,8662,Birth
+Sabah,01/01/2012,2012,Male,Overall,30266,Birth
+Sabah,01/01/2013,2013,Male,Overall,29664,Birth
+Sabah,01/01/2014,2014,Male,Overall,29720,Birth
+Sabah,01/01/2015,2015,Male,Overall,28451,Birth
+Sabah,01/01/2016,2016,Male,Overall,27067,Birth
+Sabah,01/01/2017,2017,Male,Overall,27120,Birth
+Sabah,01/01/2018,2018,Male,Overall,27601,Birth
+Sabah,01/01/2019,2019,Male,Overall,27554,Birth
+Sabah,01/01/2020,2020,Male,Overall,25952,Birth
+Sabah,01/01/2021,2021,Male,Overall,21544,Birth
+Sabah,01/01/2022,2022,Male,Overall,22471,Birth
+Sabah,01/01/2012,2012,Female,Overall,27919,Birth
+Sabah,01/01/2013,2013,Female,Overall,27159,Birth
+Sabah,01/01/2014,2014,Female,Overall,27677,Birth
+Sabah,01/01/2015,2015,Female,Overall,26248,Birth
+Sabah,01/01/2016,2016,Female,Overall,25004,Birth
+Sabah,01/01/2017,2017,Female,Overall,25408,Birth
+Sabah,01/01/2018,2018,Female,Overall,25424,Birth
+Sabah,01/01/2019,2019,Female,Overall,25419,Birth
+Sabah,01/01/2020,2020,Female,Overall,23635,Birth
+Sabah,01/01/2021,2021,Female,Overall,20064,Birth
+Sabah,01/01/2022,2022,Female,Overall,21146,Birth
+Sarawak,01/01/2012,2012,Male,Overall,22517,Birth
+Sarawak,01/01/2013,2013,Male,Overall,21027,Birth
+Sarawak,01/01/2014,2014,Male,Overall,21243,Birth
+Sarawak,01/01/2015,2015,Male,Overall,20551,Birth
+Sarawak,01/01/2016,2016,Male,Overall,19652,Birth
+Sarawak,01/01/2017,2017,Male,Overall,19543,Birth
+Sarawak,01/01/2018,2018,Male,Overall,18876,Birth
+Sarawak,01/01/2019,2019,Male,Overall,19037,Birth
+Sarawak,01/01/2020,2020,Male,Overall,18440,Birth
+Sarawak,01/01/2021,2021,Male,Overall,16062,Birth
+Sarawak,01/01/2022,2022,Male,Overall,15949,Birth
+Sarawak,01/01/2012,2012,Female,Overall,20661,Birth
+Sarawak,01/01/2013,2013,Female,Overall,19386,Birth
+Sarawak,01/01/2014,2014,Female,Overall,19806,Birth
+Sarawak,01/01/2015,2015,Female,Overall,19203,Birth
+Sarawak,01/01/2016,2016,Female,Overall,18333,Birth
+Sarawak,01/01/2017,2017,Female,Overall,18111,Birth
+Sarawak,01/01/2018,2018,Female,Overall,17748,Birth
+Sarawak,01/01/2019,2019,Female,Overall,17635,Birth
+Sarawak,01/01/2020,2020,Female,Overall,17009,Birth
+Sarawak,01/01/2021,2021,Female,Overall,15212,Birth
+Sarawak,01/01/2022,2022,Female,Overall,14988,Birth
+Selangor,01/01/2012,2012,Male,Overall,56078,Birth
+Selangor,01/01/2013,2013,Male,Overall,53282,Birth
+Selangor,01/01/2014,2014,Male,Overall,56023,Birth
+Selangor,01/01/2015,2015,Male,Overall,55720,Birth
+Selangor,01/01/2016,2016,Male,Overall,54027,Birth
+Selangor,01/01/2017,2017,Male,Overall,53823,Birth
+Selangor,01/01/2018,2018,Male,Overall,52784,Birth
+Selangor,01/01/2019,2019,Male,Overall,50760,Birth
+Selangor,01/01/2020,2020,Male,Overall,48318,Birth
+Selangor,01/01/2021,2021,Male,Overall,46638,Birth
+Selangor,01/01/2022,2022,Male,Overall,43346,Birth
+Selangor,01/01/2012,2012,Female,Overall,51868,Birth
+Selangor,01/01/2013,2013,Female,Overall,49891,Birth
+Selangor,01/01/2014,2014,Female,Overall,52909,Birth
+Selangor,01/01/2015,2015,Female,Overall,52411,Birth
+Selangor,01/01/2016,2016,Female,Overall,50634,Birth
+Selangor,01/01/2017,2017,Female,Overall,50164,Birth
+Selangor,01/01/2018,2018,Female,Overall,49341,Birth
+Selangor,01/01/2019,2019,Female,Overall,48076,Birth
+Selangor,01/01/2020,2020,Female,Overall,45259,Birth
+Selangor,01/01/2021,2021,Female,Overall,43480,Birth
+Selangor,01/01/2022,2022,Female,Overall,40312,Birth
+Terengganu,01/01/2012,2012,Male,Overall,13230,Birth
+Terengganu,01/01/2013,2013,Male,Overall,13026,Birth
+Terengganu,01/01/2014,2014,Male,Overall,14056,Birth
+Terengganu,01/01/2015,2015,Male,Overall,14403,Birth
+Terengganu,01/01/2016,2016,Male,Overall,14211,Birth
+Terengganu,01/01/2017,2017,Male,Overall,14177,Birth
+Terengganu,01/01/2018,2018,Male,Overall,14578,Birth
+Terengganu,01/01/2019,2019,Male,Overall,14088,Birth
+Terengganu,01/01/2020,2020,Male,Overall,14118,Birth
+Terengganu,01/01/2021,2021,Male,Overall,13632,Birth
+Terengganu,01/01/2022,2022,Male,Overall,13077,Birth
+Terengganu,01/01/2012,2012,Female,Overall,12468,Birth
+Terengganu,01/01/2013,2013,Female,Overall,12439,Birth
+Terengganu,01/01/2014,2014,Female,Overall,12957,Birth
+Terengganu,01/01/2015,2015,Female,Overall,13226,Birth
+Terengganu,01/01/2016,2016,Female,Overall,13310,Birth
+Terengganu,01/01/2017,2017,Female,Overall,13734,Birth
+Terengganu,01/01/2018,2018,Female,Overall,13664,Birth
+Terengganu,01/01/2019,2019,Female,Overall,12997,Birth
+Terengganu,01/01/2020,2020,Female,Overall,13059,Birth
+Terengganu,01/01/2021,2021,Female,Overall,12705,Birth
+Terengganu,01/01/2022,2022,Female,Overall,12227,Birth
+W.P. Kuala Lumpur,01/01/2012,2012,Male,Overall,14012,Birth
+W.P. Kuala Lumpur,01/01/2013,2013,Male,Overall,13044,Birth
+W.P. Kuala Lumpur,01/01/2014,2014,Male,Overall,13887,Birth
+W.P. Kuala Lumpur,01/01/2015,2015,Male,Overall,13411,Birth
+W.P. Kuala Lumpur,01/01/2016,2016,Male,Overall,13276,Birth
+W.P. Kuala Lumpur,01/01/2017,2017,Male,Overall,12722,Birth
+W.P. Kuala Lumpur,01/01/2018,2018,Male,Overall,12475,Birth
+W.P. Kuala Lumpur,01/01/2019,2019,Male,Overall,12473,Birth
+W.P. Kuala Lumpur,01/01/2020,2020,Male,Overall,12113,Birth
+W.P. Kuala Lumpur,01/01/2021,2021,Male,Overall,10992,Birth
+W.P. Kuala Lumpur,01/01/2022,2022,Male,Overall,10234,Birth
+W.P. Kuala Lumpur,01/01/2012,2012,Female,Overall,12970,Birth
+W.P. Kuala Lumpur,01/01/2013,2013,Female,Overall,12289,Birth
+W.P. Kuala Lumpur,01/01/2014,2014,Female,Overall,13213,Birth
+W.P. Kuala Lumpur,01/01/2015,2015,Female,Overall,12378,Birth
+W.P. Kuala Lumpur,01/01/2016,2016,Female,Overall,12463,Birth
+W.P. Kuala Lumpur,01/01/2017,2017,Female,Overall,12010,Birth
+W.P. Kuala Lumpur,01/01/2018,2018,Female,Overall,11760,Birth
+W.P. Kuala Lumpur,01/01/2019,2019,Female,Overall,11448,Birth
+W.P. Kuala Lumpur,01/01/2020,2020,Female,Overall,11086,Birth
+W.P. Kuala Lumpur,01/01/2021,2021,Female,Overall,10054,Birth
+W.P. Kuala Lumpur,01/01/2022,2022,Female,Overall,9619,Birth
+W.P. Labuan,01/01/2012,2012,Male,Overall,934,Birth
+W.P. Labuan,01/01/2013,2013,Male,Overall,944,Birth
+W.P. Labuan,01/01/2014,2014,Male,Overall,959,Birth
+W.P. Labuan,01/01/2015,2015,Male,Overall,1023,Birth
+W.P. Labuan,01/01/2016,2016,Male,Overall,881,Birth
+W.P. Labuan,01/01/2017,2017,Male,Overall,866,Birth
+W.P. Labuan,01/01/2018,2018,Male,Overall,913,Birth
+W.P. Labuan,01/01/2019,2019,Male,Overall,872,Birth
+W.P. Labuan,01/01/2020,2020,Male,Overall,851,Birth
+W.P. Labuan,01/01/2021,2021,Male,Overall,755,Birth
+W.P. Labuan,01/01/2022,2022,Male,Overall,704,Birth
+W.P. Labuan,01/01/2012,2012,Female,Overall,839,Birth
+W.P. Labuan,01/01/2013,2013,Female,Overall,799,Birth
+W.P. Labuan,01/01/2014,2014,Female,Overall,912,Birth
+W.P. Labuan,01/01/2015,2015,Female,Overall,930,Birth
+W.P. Labuan,01/01/2016,2016,Female,Overall,871,Birth
+W.P. Labuan,01/01/2017,2017,Female,Overall,819,Birth
+W.P. Labuan,01/01/2018,2018,Female,Overall,778,Birth
+W.P. Labuan,01/01/2019,2019,Female,Overall,806,Birth
+W.P. Labuan,01/01/2020,2020,Female,Overall,863,Birth
+W.P. Labuan,01/01/2021,2021,Female,Overall,767,Birth
+W.P. Labuan,01/01/2022,2022,Female,Overall,670,Birth
+W.P. Putrajaya,01/01/2012,2012,Male,Overall,1600,Birth
+W.P. Putrajaya,01/01/2013,2013,Male,Overall,1518,Birth
+W.P. Putrajaya,01/01/2014,2014,Male,Overall,1574,Birth
+W.P. Putrajaya,01/01/2015,2015,Male,Overall,1515,Birth
+W.P. Putrajaya,01/01/2016,2016,Male,Overall,1342,Birth
+W.P. Putrajaya,01/01/2017,2017,Male,Overall,1298,Birth
+W.P. Putrajaya,01/01/2018,2018,Male,Overall,1251,Birth
+W.P. Putrajaya,01/01/2019,2019,Male,Overall,1211,Birth
+W.P. Putrajaya,01/01/2020,2020,Male,Overall,1073,Birth
+W.P. Putrajaya,01/01/2021,2021,Male,Overall,1090,Birth
+W.P. Putrajaya,01/01/2022,2022,Male,Overall,953,Birth
+W.P. Putrajaya,01/01/2012,2012,Female,Overall,1550,Birth
+W.P. Putrajaya,01/01/2013,2013,Female,Overall,1454,Birth
+W.P. Putrajaya,01/01/2014,2014,Female,Overall,1490,Birth
+W.P. Putrajaya,01/01/2015,2015,Female,Overall,1354,Birth
+W.P. Putrajaya,01/01/2016,2016,Female,Overall,1227,Birth
+W.P. Putrajaya,01/01/2017,2017,Female,Overall,1219,Birth
+W.P. Putrajaya,01/01/2018,2018,Female,Overall,1149,Birth
+W.P. Putrajaya,01/01/2019,2019,Female,Overall,1105,Birth
+W.P. Putrajaya,01/01/2020,2020,Female,Overall,1070,Birth
+W.P. Putrajaya,01/01/2021,2021,Female,Overall,1016,Birth
+W.P. Putrajaya,01/01/2022,2022,Female,Overall,886,Birth

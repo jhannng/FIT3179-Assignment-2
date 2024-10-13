@@ -14,9 +14,6 @@
 
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
-    <!-- Dataset: https://data.gov.my/data-catalogue/births_annual_sex_ethnic_state?visual=abs -->
-    <!-- Dataset: https://data.gov.my/data-catalogue/deaths_sex_ethnic_state -->
-
     <title>FIT3179 - Data Visualisation 2</title>
 </head>
 
@@ -24,31 +21,41 @@
     <!-- Header -->
     <div class="container__title">
         <div>
-            <span class="title montserrat">Annual Live Births and Deaths of Malaysia in 2022 </span>
-            <br>
-            <span class="title__description noto-serif">This visualization shows the number of live births and deaths in
-                Malaysia
-                in 2022, categorized by
-                gender and ethnicity, providing insight into demographic trends.</span>
+            <span class="title noto-serif">Annual Live Births and Deaths of Malaysia </span>
+            <span class="br_spacing"></span>
+            <span class="title__description open-sans">This visualization shows the number of live births and deaths in
+                Malaysia, categorized by gender and ethnicity, providing insight into demographic trends.</span>
         </div>
     </div>
 
     <!-- Choropleth Map -->
     <div class="container__visulisation">
         <div class="container__visulisation_title">
-            <span class="title__visualisation open-sans">Net Population Change Across State</span>
+            <span class="title__visualisation montserrat">Net Population Change Across State</span>
         </div>
         <div class="container__visulisation_chart">
             <div id="visChart1" class="visualisation_chart"></div>
         </div>
         <div class="container__visulisation_description">
             <div class="chart_description">
-                <div class="description_text nato-serif">
+                <div class="description_text open-sans">
                     <span>
-                        This visualization shows a map of Malaysia, with different states color-coded based on their net
-                        population change. The color scale ranges from light pink to dark red, indicating varying levels
-                        of population change across the
-                        country's regions.
+                        In spite of its substantial growth, likely prompted by objects like urbanisation and economic
+                        opportunities; Selangor, the state with the darker red tone,
+                    </span>
+                    <span>
+                        has the greatest net population.
+                        Alternatively, states with paler red hues saw smaller net increases, indicating lower
+                        birth-to-death ratios or slower rates of growth.
+                    </span>
+                </div>
+            </div>
+            <div class="user_guide">
+                <div class="user_guide_text open-sans">
+                    <span>
+                        Note: Hovering over an area provides the specifics of that state; and switch between the years
+                        2012 and 2022 using the slider at the bottom to observe the manner in which the data evolves
+                        over time.
                     </span>
                 </div>
             </div>
@@ -58,52 +65,59 @@
     <!-- Butterfly Bar Chart -->
     <div class="container__visulisation">
         <div class="container__visulisation_title">
-            <span class="title__visualisation open-sans">Comparision of Births and Deaths In States</span>
-        </div>
-        <div class="container__visulisation_chart">
-            <div id="visChart2" class="visualisation_chart"></div>
+            <span class="title__visualisation montserrat">Comparision of Births and Deaths In States</span>
         </div>
         <div class="container__visulisation_description">
             <div class="chart_description">
-                <div class="description_text nato-serif">
+                <div class="description_text open-sans">
                     <span>
-                        This chart displays the frequency of deaths (in blue) and live births (in green) for various
-                        states and territories in
-                        Malaysia. The data is presented as a horizontal bar graph, with each state's statistics shown
-                        side by side. Selangor
-                        appears to have the highest numbers for both categories, while smaller territories like W.P.
-                        Labuan and W.P. Putrajaya
-                        show the lowest frequencies. The graph allows for easy comparison of birth and death rates
-                        across different regions of
-                        Malaysia.
+                        Overall, there were more births than deaths in each state, indicating that most states have
+                        witnessed population expansion. But the difference between births and deaths varies by state;
+                        some have a larger difference, indicating faster growth, while others have a smaller difference,
+                        indicating slower demographic expansion.
+                    </span>
+                </div>
+            </div>
+            <div class="user_guide">
+                <div class="user_guide_text open-sans">
+                    <span>
+                        Note: Hovering over the bar provides the specifics of that state; and switch between the years
+                        2012 and 2022 using the slider at the bottom or filter by state with dropdown menu to observe
+                        the manner in which the data evolves over time.
                     </span>
                 </div>
             </div>
         </div>
+        <div class="container__visulisation_chart">
+            <div id="visChart2" class="visualisation_chart"></div>
+        </div>
     </div>
 
-    <!-- Bubble Chart -->
+    <!-- Heatmap Chart -->
     <div class="container__visulisation">
         <div class="container__visulisation_title">
-            <span class="title__visualisation open-sans">Distribution of Births and Deaths by Gender In States</span>
+            <span class="title__visualisation montserrat">Distribution of Births and Deaths by Gender In States</span>
         </div>
         <div class="container__visulisation_chart">
             <div id="visChart3" class="visualisation_chart"></div>
         </div>
         <div class="container__visulisation_description">
             <div class="chart_description">
-                <div class="description_text nato-serif">
+                <div class="description_text open-sans">
                     <span>
-                        This heatmap visualizes the distribution of births and deaths by sex across different states in
-                        Malaysia. It uses color
-                        intensity to represent the number of people, with darker shades indicating lower numbers and
-                        brighter colors (especially
-                        yellow) showing higher numbers. The chart is divided into four rows: death of males, death of
-                        females, birth of males,
-                        and birth of females. Selangor stands out with the brightest colors, suggesting it has the
-                        highest numbers across all
-                        categories. The visualization allows for easy comparison of demographic patterns across states
-                        and between genders.
+                        In overall, states like Selangor have greater birth and death rates, but states like Perlis and
+                        W.P. Labuan show lower numbers with darker colours. States vary somewhat in their male and
+                        female birth rates, but overall, they are balanced. Besides, death rates are frequently greater
+                        in states with higher birth rates.
+                    </span>
+                </div>
+            </div>
+            <div class="user_guide">
+                <div class="user_guide_text open-sans">
+                    <span>
+                        Note: Hovering over the area provides the specifics of that state; and switch between the years
+                        2012 and 2022 using the slider at the bottom to observe the manner in which the data evolves
+                        over time.
                     </span>
                 </div>
             </div>
@@ -113,27 +127,48 @@
     <!-- Multiple Bar Chart -->
     <div class="container__visulisation">
         <div class="container__visulisation_title">
-            <span class="title__visualisation open-sans">Ratios of Births and Deaths By Ethnic Group</span>
+            <span class="title__visualisation montserrat">Ratios of Births and Deaths By Ethnic Group</span>
+        </div>
+        <div class="container__visulisation_description">
+            <div class="chart_description">
+                <div class="description_text open-sans">
+                    <span>
+                        In general, birth rates were greater than mortality rates in all ethnic groups, indicating a
+                        potential increase in population. The "Bumi Malay" group is the one that has contributed the
+                        most to the population growth, followed by other groups with comparatively smaller numbers.
+                    </span>
+                </div>
+            </div>
+            <div class="user_guide">
+                <div class="user_guide_text open-sans">
+                    <span>
+                        Note: Hovering over the bar provides the specifics of that combination; and switch between the
+                        years 2012 and 2022 using the slider at the bottom to observe the manner in which the data
+                        evolves over time.
+                    </span>
+                </div>
+            </div>
         </div>
         <div class="container__visulisation_chart">
             <div id="visChart4" class="visualisation_chart"></div>
         </div>
-        <div class="container__visulisation_description">
-            <div class="chart_description">
-                <div class="description_text nato-serif">
-                    <span>
-                        This chart compares birth and death rates across four ethnic groups in Malaysia: Bumi Malay,
-                        Bumi Other, Chinese, and
-                        Indian. The left panel shows birth rates, with Bumi Malay having significantly higher births
-                        than other groups. The
-                        right panel displays death rates, where Bumi Malay still leads but the gap is smaller. Chinese
-                        deaths notably exceed
-                        their birth rate, unlike other groups. This visualization effectively illustrates demographic
-                        differences among
-                        Malaysia's main ethnic communities.
-                    </span>
-                </div>
-            </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container__credit">
+        <div>
+            <span class="credit open-sans">Prepared By Jui Kai Hang (32203047)</span>
+            <span class="br_spacing"></span>
+            <span class="credit__description montserrat">
+                Data Source from JPN & DOSM [
+                <a href="https://data.gov.my/data-catalogue/births_annual_sex_ethnic_state?visual=abs">Live Birth
+                    Dataset</a>
+                |
+                <a href="https://data.gov.my/data-catalogue/deaths_sex_ethnic_state">Death Dataset</a> ]
+                <br>
+                Disclaimer: Data is made open under the Creative Commons Attribution 4.0 International License (CC BY
+                4.0)
+            </span>
         </div>
     </div>
 
