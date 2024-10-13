@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 860,
+    "width": 660,
     "height": 500,
     "params": [
         {
@@ -68,7 +68,7 @@
             },
             "encoding": {
                 "text": { "value": "Births" },
-                "x": { "value": 650 },
+                "x": { "value": 495 },
                 "y": { "value": 510 }
             }
         },
@@ -92,7 +92,7 @@
             },
             "encoding": {
                 "text": { "value": "Deaths" },
-                "x": { "value": 200 },
+                "x": { "value": 160 },
                 "y": { "value": 510 }
             }
         },
@@ -111,12 +111,12 @@
                 "baseline": "top",
                 "dx": 5,
                 "dy": 10,
-                "fontSize": 12,
+                "fontSize": 10,
                 "fontStyle": "italic"
             },
             "encoding": {
                 "text": { "value": "Highest Number of Births & Deaths" },
-                "x": { "value": 140 },
+                "x": { "value": 100 },
                 "y": { "value": 342 }
             }
         },
@@ -132,7 +132,7 @@
             },
             "encoding": {
                 "text": { "value": "Putrajaya & Labuan have the Lowest Numbers" },
-                "x": { "value": 680 },
+                "x": { "value": 490 },
                 "y": { "value": 455 }
             }
         }
