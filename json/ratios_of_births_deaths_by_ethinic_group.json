@@ -16,7 +16,7 @@
         }
     ],
     "data": {
-        "url": "../data/ratios_of_births_deaths_by_ethinic_group.csv"
+        "url": "https://raw.githubusercontent.com/jhannng/FIT3179-Assignment-2/refs/heads/main/data/ratios_of_births_deaths_by_ethinic_group.csv"
     },
     "transform": [
         { "filter": "datum.Year == YearFilter" },
