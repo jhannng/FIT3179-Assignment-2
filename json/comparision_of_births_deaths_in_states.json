@@ -11,19 +11,8 @@
                 "min": 2012,
                 "max": 2022,
                 "step": 1,
-                "name": "Year Selection: "
-            }
-        },
-        {
-            "name": "StateFilter",
-            "value": "All",
-            "bind": {
-                "input": "select",
-                "options": [ "All", "Johor", "Kedah", "Kelantan", "Melaka", "Negeri Sembilan", "Pahang", "Perak", "Perlis", "Pulau Pinang",
-                    "Sabah", "Sarawak", "Selangor", "Terengganu", "W.P. Kuala Lumpur", "W.P. Labuan", "W.P. Putrajaya" ],
-                "labels": [ "All State", "Johor", "Kedah", "Kelantan", "Melaka", "Negeri Sembilan", "Pahang", "Perak", "Perlis", "Pulau Pinang",
-                    "Sabah", "Sarawak", "Selangor", "Terengganu", "W.P. Kuala Lumpur", "W.P. Labuan", "W.P. Putrajaya" ],
-                "name": "State Selection: "
+                "name": "Year Selection: ",
+                "element": "#yearFilter2"
             }
         }
     ],
@@ -32,8 +21,7 @@
     },
     "transform": [
         { "calculate": "datum.NumberOfDeath * -1", "as": "NegativeDeaths" },
-        { "filter": "datum.Year == YearFilter" },
-        { "filter": "StateFilter == 'All' || datum.State == StateFilter" }
+        { "filter": "datum.Year == YearFilter" }
     ],
     "encoding": {
         "y": {
@@ -65,7 +53,7 @@
                         "titleAlign": "center",
                         "titlePadding": 20
                     },
-                    "scale": { "domain": [ 0, 80000 ] }
+                    "scale": { "domain": [ 0, 110000 ] }
                 },
                 "color": { "value": "#4CAF50" }
 
@@ -80,7 +68,7 @@
             },
             "encoding": {
                 "text": { "value": "Births" },
-                "x": { "value": 750 },
+                "x": { "value": 650 },
                 "y": { "value": 510 }
             }
         },
@@ -90,7 +78,7 @@
                 "x": {
                     "field": "NegativeDeaths",
                     "type": "quantitative",
-                    "scale": { "domain": [ -80000, 0 ] }
+                    "scale": { "domain": [ -110000, 0 ] }
                 },
                 "color": { "value": "#2196F3" }
             }
@@ -104,7 +92,7 @@
             },
             "encoding": {
                 "text": { "value": "Deaths" },
-                "x": { "value": 250 },
+                "x": { "value": 200 },
                 "y": { "value": 510 }
             }
         },
@@ -114,6 +102,38 @@
                 "x": { "value": 0 },
                 "color": { "value": "black" },
                 "size": { "value": 1 }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "top",
+                "dx": 5,
+                "dy": 10,
+                "fontSize": 12,
+                "fontStyle": "italic"
+            },
+            "encoding": {
+                "text": { "value": "Highest Number of Births & Deaths" },
+                "x": { "value": 140 },
+                "y": { "value": 342 }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "top",
+                "dx": 5,
+                "dy": 10,
+                "fontSize": 12,
+                "fontStyle": "italic"
+            },
+            "encoding": {
+                "text": { "value": "Putrajaya & Labuan have the Lowest Numbers" },
+                "x": { "value": 680 },
+                "y": { "value": 455 }
             }
         }
     ],

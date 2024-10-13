@@ -96,16 +96,19 @@ body {
   flex: 7;
   display: flex;
   max-width: 65%;
+  flex-wrap: nowrap;
   align-items: center;
   margin-bottom: 1.5rem;
+  flex-direction: column;
   justify-content: center;
 }
 
 .visualisation_chart {
   width: auto;
   height: auto;
-  margin: 25px 50px;
   padding: 15px;
+  flex: 0 1 auto;
+  margin: 25px 50px;
   border-radius: 5px;
   border: 2px solid #808080;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
@@ -122,9 +125,27 @@ body {
   justify-content: space-between;
 }
 
+.filter_controller {
+  width: 30rem;
+  margin: 32px;
+  display: flex;
+  flex: 0 1 auto;
+  padding: 5% 10px;
+  border-radius: 5px;
+  align-items: center;
+  border: 2px solid #808080;
+  justify-content: space-between;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.filter_controller span {
+  flex: 1;
+  margin-right: 10px;
+}
+
 .chart_description {
   flex: 0 1 auto;
-  padding: 25% 50px;
+  padding: 15% 50px;
   position: relative;
   align-self: center;
   text-align: justify;
@@ -144,17 +165,36 @@ body {
 .description_text {
   color: #101010;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
   transition: color 0.3s ease;
 }
 
-.user_guide_text {
+.focus_keyword {
   color: #808080;
-  font-size: 18px;
+  font-weight: 500;
+}
+
+.focus_point {
+  color: #ff3d3d;
+  font-style: italic;
+}
+
+.focus_analysis {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user_guide_text {
+  padding: 16px;
+  font-size: 14px;
+  color: #808080;
   font-weight: 600;
   line-height: 1.2;
+  border-radius: 5px;
+  border: 2px solid #808080;
   transition: color 0.3s ease;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 .container__credit {
@@ -171,7 +211,7 @@ body {
 
 .credit {
   color: #232023;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
@@ -180,7 +220,7 @@ body {
 
 .credit__description {
   color: #232023;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.2;
   transition: color 0.3s ease;

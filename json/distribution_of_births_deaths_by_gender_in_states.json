@@ -11,7 +11,30 @@
                 "min": 2012,
                 "max": 2022,
                 "step": 1,
-                "name": "Year Selection: "
+                "name": "Year: ",
+                "element": "#yearFilter3"
+            }
+        },
+        {
+            "name": "TypeFilter",
+            "value": "All",
+            "bind": {
+                "input": "select",
+                "options": [ "All", "Birth", "Death" ],
+                "labels": [ "All", "Birth", "Death" ],
+                "name": "Category: ",
+                "element": "#typeFilter"
+            }
+        },
+        {
+            "name": "SexFilter",
+            "value": "All",
+            "bind": {
+                "input": "select",
+                "options": [ "All", "Male", "Female" ],
+                "labels": [ "All", "Male", "Female" ],
+                "name": "Gender: ",
+                "element": "#sexFilter"
             }
         }
     ],
@@ -54,6 +77,8 @@
     },
     "transform": [
         { "filter": "datum.Year == YearFilter" },
+        { "filter": "TypeFilter == 'All' || datum.Type == TypeFilter" },
+        { "filter": "SexFilter == 'All' || datum.Sex == SexFilter" },
         {
             "calculate": "datum.Type + ' of ' + datum.Sex",
             "as": "Type_Sex"
