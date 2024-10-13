@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 660,
-    "height": 500,
+    "height": 430,
     "params": [
         {
             "name": "YearFilter",
@@ -69,7 +69,7 @@
             "encoding": {
                 "text": { "value": "Births" },
                 "x": { "value": 495 },
-                "y": { "value": 510 }
+                "y": { "value": 450 }
             }
         },
         {
@@ -93,7 +93,7 @@
             "encoding": {
                 "text": { "value": "Deaths" },
                 "x": { "value": 160 },
-                "y": { "value": 510 }
+                "y": { "value": 450 }
             }
         },
         {
@@ -133,7 +133,7 @@
             "encoding": {
                 "text": { "value": "Putrajaya & Labuan have the Lowest Numbers" },
                 "x": { "value": 490 },
-                "y": { "value": 455 }
+                "y": { "value": 388 }
             }
         }
     ],
